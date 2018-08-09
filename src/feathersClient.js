@@ -1,5 +1,5 @@
 import feathers from "@feathersjs/client";
-import auth from "@feathersjs/authentication-client";
+import auth from "@feathersjs/client/authentication";
 
 const host = 'https://bervianto-web-api.herokuapp.com';
 const authOptions = { jwtStrategy: 'jwt', storage: window.localStorage };
