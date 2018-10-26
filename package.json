@@ -5,7 +5,7 @@
   "dependencies": {
     "@feathersjs/authentication-client": "^1.0.7",
     "@feathersjs/client": "^3.5.5",
-    "aor-feathers-client": "^2.0.3",
+    "aor-feathers-client": "^2.0.5",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-admin": "^2.4.0",
