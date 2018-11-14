@@ -1,7 +1,6 @@
 # MyPersonalWebFrontEndAdmin
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f61f2827d5fd4ae1bd90b094fda15dac)](https://app.codacy.com/app/berviantoleo/MyPersonalWebFrontEndAdmin?utm_source=github.com&utm_medium=referral&utm_content=bervProject/MyPersonalWebFrontEndAdmin&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f61f2827d5fd4ae1bd90b094fda15dac)](https://app.codacy.com/app/berviantoleo/MyPersonalWebFrontEndAdmin?utm_source=github.com&utm_medium=referral&utm_content=bervProject/MyPersonalWebFrontEndAdmin&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://travis-ci.org/bervProject/MyPersonalWebFrontEndAdmin.svg?branch=master)](https://travis-ci.org/bervProject/MyPersonalWebFrontEndAdmin) [![Greenkeeper badge](https://badges.greenkeeper.io/bervProject/MyPersonalWebFrontEndAdmin.svg)](https://greenkeeper.io/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
