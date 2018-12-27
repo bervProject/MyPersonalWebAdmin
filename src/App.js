@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Admin, Resource } from 'react-admin';
-import { authClient, restClient } from 'aor-feathers-client';
+import { authClient, restClient } from 'ra-data-feathers';
 import feathersClient from './feathersClient';
 import { UsersList } from './services/users';
 import './App.css';

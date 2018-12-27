@@ -5,12 +5,12 @@
   "dependencies": {
     "@feathersjs/authentication-client": "^1.0.9",
     "@feathersjs/client": "^3.7.6",
-    "aor-feathers-client": "^2.0.5",
     "prop-types": "^15.6.2",
-    "react": "^16.6.3",
+    "ra-data-feathers": "^2.0.7",
+    "react": "^16.7.0",
     "react-admin": "^2.5.2",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
