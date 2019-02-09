@@ -7,7 +7,7 @@
     "@feathersjs/client": "^3.7.8",
     "prop-types": "^15.6.2",
     "ra-data-feathers": "^2.0.7",
-    "react": "^16.7.0",
+    "react": "^16.8.1",
     "react-admin": "^2.7.0",
     "react-dom": "^16.8.1",
     "react-scripts": "^2.1.3"
