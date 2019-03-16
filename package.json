@@ -10,7 +10,7 @@
     "react": "^16.8.4",
     "react-admin": "^2.8.1",
     "react-dom": "^16.8.4",
-    "react-scripts": "^2.1.5"
+    "react-scripts": "^2.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
