@@ -9,7 +9,7 @@
     "ra-data-feathers": "^2.0.8",
     "react": "^16.8.4",
     "react-admin": "^2.8.2",
-    "react-dom": "^16.8.4",
+    "react-dom": "^16.8.5",
     "react-scripts": "^2.1.8"
   },
   "scripts": {
