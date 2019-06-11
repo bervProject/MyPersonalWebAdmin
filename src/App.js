@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Admin, Resource } from 'react-admin';
 import { authClient, restClient } from 'ra-data-feathers';
 import feathersClient from './feathersClient';
-import { UsersList } from './services/users';
+import {
+  UsersList,
+  UserCreate
+} from './services/users';
 import './App.css';
 
 const authClientOptions = {
@@ -10,7 +13,7 @@ const authClientOptions = {
   authenticate: { strategy: 'local' },
 };
 
-const options = { id: '_id' };
+const options = { id: 'id' };
 
 class App extends Component {
   render() {
@@ -18,8 +21,9 @@ class App extends Component {
   <Admin
   authProvider={authClient(feathersClient, authClientOptions)}
   dataProvider={restClient(feathersClient, options)}>
-        {permissions => [
-      permissions === 'admin' ? <Resource name="users" list={UsersList} /> : null,
+        {
+          permissions => [
+      permissions === 'admin' ? <Resource name="users" list={UsersList} create={UserCreate} /> : null,
 
     ]}
     </Admin>
