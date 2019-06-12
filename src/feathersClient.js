@@ -1,9 +1,12 @@
-import feathers from "@feathersjs/client";
-import auth from "@feathersjs/client/authentication";
+import feathers from "@feathersjs/feathers";
+import rest from "@feathersjs/rest-client";
+import axios from "axios";
+import auth from "@feathersjs/authentication-client";
 
 const host = 'https://bervianto-web-api.herokuapp.com';
+const restClient = rest(host);
 const authOptions = { jwtStrategy: 'jwt', storage: window.localStorage };
 
 export default feathers()
-    .configure(feathers.rest(host).fetch(window.fetch.bind(window)))
+    .configure(restClient.axios(axios))
     .configure(auth(authOptions));
