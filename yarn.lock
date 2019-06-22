@@ -8301,10 +8301,10 @@ ra-core@^2.9.2:
     redux-saga "~0.16.0"
     reselect "~3.0.0"
 
-ra-data-feathers@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.0.8.tgz#e083cc3af8ccc7c33564dd90d324ec7c7b22da91"
-  integrity sha512-hhLN/1x9LaHJ3kw3CNvK8RVoR1xnCoFmuSticFrw+zq42J6bT8oXj8FPM6CsEr9vyQr7Y75NHSUA8tH/6ImGgQ==
+ra-data-feathers@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.1.0.tgz#200d1f22af412f761039d6984b7b6ff4d037a554"
+  integrity sha512-ZsG0gigvtbsAlyd29ms120ZkHbBnvvX9OK7pb0uxzL2Dhny4syCMGij4si5u7XQz4Y7Gq690aSlaWF7ZBrTs5g==
   dependencies:
     chai-as-promised "^7.1.1"
     debug "^3.0.0"
