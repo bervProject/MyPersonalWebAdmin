@@ -4,4 +4,5 @@ node_js:
 
 script:
   - yarn test
+  - yarn snyk-protect
   - yarn build
