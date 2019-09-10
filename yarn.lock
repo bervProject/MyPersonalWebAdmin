@@ -894,13 +894,13 @@
   resolved "https://registry.yarnpkg.com/@feathers-plus/batch-loader/-/batch-loader-0.3.6.tgz#1e096e95fcdffb83fb1a65468e6ef80b416f7d98"
   integrity sha512-r+n31iZ/B5Rl1mLkC9/S20UI445MdkZvE3VBmjupep2t8OuyTYHPkFEgR25HY6khH+RothK1VL3B5eumk9N2QQ==
 
-"@feathersjs/authentication-client@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-client/-/authentication-client-4.3.0.tgz#387656c8045d9997643b958a63ab88b2ef4d2179"
-  integrity sha512-VWs0NR5uAy+SpVdjUGb7sn+cqeUw9Kb/mNcMabq1SyTv/by4+URZX5rPMeCvvZFMhTICUmY3L7kNoN2U7vLQtg==
+"@feathersjs/authentication-client@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-client/-/authentication-client-4.3.1.tgz#0a1da1c29185991aab4888d23ad3415e39d5b6dc"
+  integrity sha512-wafFYDzNsznnIvt70uL8Ncy1nMPHHZm46C9t1ExQeDn+6vLUdMOw7ZqLq0H4GiK/T19QedcZtGhS9vfm8QZ28Q==
   dependencies:
     "@feathersjs/commons" "^4.3.0"
-    "@feathersjs/errors" "^4.3.0"
+    "@feathersjs/errors" "^4.3.1"
     debug "^4.1.1"
 
 "@feathersjs/commons@^1.4.0":
@@ -920,7 +920,7 @@
   dependencies:
     debug "^4.0.0"
 
-"@feathersjs/errors@^4.3.0", "@feathersjs/errors@^4.3.1":
+"@feathersjs/errors@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.1.tgz#2ce9004c447803b05aa85bc33f0189373c31163b"
   integrity sha512-1egwUeloAGEp61lE50SRM9Hlkz0W5l/afEO5YOMF49rNzY4b8SEOcGsxb056M+lMRaWlH8bD4nZ0B4PD/09NoQ==
