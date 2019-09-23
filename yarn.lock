@@ -1060,10 +1060,10 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.3.0.tgz#6b0993ac790382aa28ec8a138f3e91501973b418"
   integrity sha512-N3CDavCNRp+usgyfDSFXCwETnp4nIEevl5v1nqULGhPYco0SjF15zu4hYyd3GCn0aAwzaIehYyaMcdee9Eo1KQ==
 
-"@feathersjs/errors@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.2.tgz#409dd433862047aae864b71c3d9352379c7a6b67"
-  integrity sha512-rfwBrtXejz1qLSsw6NtwfeXOAyAHu6D2rRCaWCsa6paPmhbArifHIDuEVaTCJqRySzGnwiuG+pQfQ5wMPXvOyA==
+"@feathersjs/errors@^4.3.2", "@feathersjs/errors@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.3.3.tgz#4fc2956013e3599999fd8a14d5b61deb61a21476"
+  integrity sha512-vqW6TDZIj7x77qenghGrWVhURN/SRYg9DjnE9aWoR4TPv9z+w3UzDl5luUW/KhHa7+2wh/TDGIdfUF5PTv8Mpg==
   dependencies:
     debug "^4.1.1"
 
@@ -1077,13 +1077,13 @@
     events "^3.0.0"
     uberproto "^2.0.4"
 
-"@feathersjs/rest-client@^4.3.2":
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.3.2.tgz#af99e478dfb2f1bdfd2dbb0ffbbfef4747d57d1f"
-  integrity sha512-cx7KlKTQbG6+oKA4NRDHk0Vlnn5dClMkCjBzsilYmzvPBYdjl6wkfW/k+sK6rRw+HXT+A9WDjQD+tbB6OJvGow==
+"@feathersjs/rest-client@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.3.3.tgz#75fdb2ed63d2366f9519aaab0b598b823bac8c47"
+  integrity sha512-YZMctUQUzADgvMQSuxWGA+cscJ2pjjNeTEoUNN0HAEf82DfiZhiQleSRRgPpXACh7C806TSQASzAbVCK2+uwLA==
   dependencies:
     "@feathersjs/commons" "^4.3.0"
-    "@feathersjs/errors" "^4.3.2"
+    "@feathersjs/errors" "^4.3.3"
     qs "^6.8.0"
 
 "@hapi/address@2.x.x":
