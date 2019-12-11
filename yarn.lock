@@ -9738,10 +9738,10 @@ ra-core@^2.9.9:
     redux-saga "~0.16.0"
     reselect "~3.0.0"
 
-ra-data-feathers@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.4.1.tgz#c0f5fe6dfa45b1b89f15036b479d735126080540"
-  integrity sha512-24UO9SIm1drZUiLs4D5BW9QaozAn08bGxq4UDlo+7kGutSyyK41CTBxbdFo0jkGDtRYCJW77f9lmjpxgGLX+wA==
+ra-data-feathers@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.5.0.tgz#6379da2400808756c229cb306cbc77f8985d64d1"
+  integrity sha512-i3Zb7wBPv9OWD7bytbnuAmE2WwuyHmbtwPZM+D+05fxaasvmeG77w5C6nKrxWTakuQnAgOTA2EhruUW1KOfqIg==
   dependencies:
     debug "^3.0.0"
     jwt-decode "^2.2.0"
