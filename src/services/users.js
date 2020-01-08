@@ -3,9 +3,11 @@ import {
   List,
   Datagrid,
   TextField,
+  EmailField,
   Create,
   SimpleForm,
   TextInput,
+  PasswordInput,
   DisabledInput,
   Edit,
   Show,
@@ -18,7 +20,7 @@ export const UsersList = props => (
   <List {...props}>
     <Datagrid>
       <TextField label="id" source="id" />
-      <TextField label="E-mail" source="email" />
+      <EmailField label="E-mail" source="email" />
       <TextField source="role" />
       <EditButton />
       <ShowButton />
@@ -30,7 +32,7 @@ export const UserShow = props => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField label="id" source="id" />
-      <TextField label="E-mail" source="email" />
+      <EmailField label="E-mail" source="email" />
       <TextField source="role" />
     </SimpleShowLayout>
   </Show>
@@ -39,8 +41,8 @@ export const UserShow = props => (
 export const UserCreate = props => (
   <Create {...props}>
     <SimpleForm>
-      <TextInput label="E-mail" source="email" />
-      <TextInput label="Password" source="password" type="password" />
+      <TextInput label="E-mail" source="email" type="email" />
+      <PasswordInput label="Password" source="password" />
       <TextInput label="Role" source="role" />
     </SimpleForm>
   </Create>

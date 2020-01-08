@@ -5,6 +5,7 @@ import {
   TextField,
   DateField,
   ImageField,
+  UrlField,
   Create,
   SimpleForm,
   TextInput,
@@ -23,7 +24,7 @@ export const PortofolioList = props => (
       <TextField source="title" />
       <ImageField source="image" />
       <ImageField source="icon" />
-      <TextField source="repository" />
+      <UrlField source="repository" />
       <DateField source="createdAt" />
       <DateField source="updatedAt" />
       <EditButton />
@@ -40,7 +41,7 @@ export const PortofolioShow = props => (
       <TextField source="description" />
       <ImageField source="image" />
       <ImageField source="icon" />
-      <TextField source="repository" />
+      <UrlField source="repository" />
       <DateField source="createdAt" />
       <DateField source="updatedAt" />
     </SimpleShowLayout>
@@ -54,7 +55,7 @@ export const PortofolioCreate = props => (
       <TextInput source="description" />
       <TextInput source="image" />
       <TextInput source="icon" />
-      <TextInput source="repository" />
+      <TextInput source="repository" type="url" />
     </SimpleForm>
   </Create>
 );
@@ -67,7 +68,7 @@ export const PortofolioUpdate = props => (
       <TextInput source="description" />
       <TextInput source="image" />
       <TextInput source="icon" />
-      <TextInput source="repository" />
+      <TextInput source="repository" type="url" />
     </SimpleForm>
   </Edit>
 );
