@@ -8,7 +8,6 @@ import {
   SimpleForm,
   TextInput,
   DateInput,
-  DisabledInput,
   Edit,
   Show,
   SimpleShowLayout,
@@ -68,7 +67,7 @@ export const EducationCreate = props => (
 export const EducationEdit = props => (
   <Edit {...props}>
     <SimpleForm>
-      <DisabledInput source="id" />
+      <TextInput disabled source="id" />
       <DateInput source="fromDate" />
       <DateInput source="toDate" />
       <TextInput source="degree" />

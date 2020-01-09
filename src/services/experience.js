@@ -8,7 +8,6 @@ import {
   SimpleForm,
   TextInput,
   DateInput,
-  DisabledInput,
   Edit,
   Show,
   SimpleShowLayout,
@@ -62,7 +61,7 @@ export const ExperienceCreate = props => (
 export const ExperienceEdit = props => (
   <Edit {...props}>
     <SimpleForm>
-      <DisabledInput source="id" />
+      <TextInput disabled source="id" />
       <DateInput source="fromDate" />
       <DateInput source="toDate" />
       <TextInput source="jobName" />

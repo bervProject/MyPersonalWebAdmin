@@ -9,7 +9,6 @@ import {
   Create,
   SimpleForm,
   TextInput,
-  DisabledInput,
   Edit,
   Show,
   SimpleShowLayout,
@@ -53,8 +52,8 @@ export const PortofolioCreate = props => (
     <SimpleForm>
       <TextInput source="title" />
       <TextInput source="description" />
-      <TextInput source="image" />
-      <TextInput source="icon" />
+      <TextInput source="image" type="url" />
+      <TextInput source="icon" type="url" />
       <TextInput source="repository" type="url" />
     </SimpleForm>
   </Create>
@@ -63,11 +62,11 @@ export const PortofolioCreate = props => (
 export const PortofolioUpdate = props => (
   <Edit {...props}>
     <SimpleForm>
-      <DisabledInput source="id" />
+      <TextInput disabled source="id" />
       <TextInput source="title" />
       <TextInput source="description" />
-      <TextInput source="image" />
-      <TextInput source="icon" />
+      <TextInput source="image" type="url" />
+      <TextInput source="icon" type="url" />
       <TextInput source="repository" type="url" />
     </SimpleForm>
   </Edit>

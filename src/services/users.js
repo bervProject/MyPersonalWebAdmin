@@ -8,7 +8,6 @@ import {
   SimpleForm,
   TextInput,
   PasswordInput,
-  DisabledInput,
   Edit,
   Show,
   SimpleShowLayout,
@@ -51,8 +50,8 @@ export const UserCreate = props => (
 export const UserEdit = props => (
   <Edit {...props}>
     <SimpleForm>
-      <DisabledInput source="id" />
-      <DisabledInput label="E-mail" source="email" />
+      <TextInput disabled source="id" />
+      <TextInput disabled label="E-mail" source="email" type="email" />
       <TextInput source="role" />
     </SimpleForm>
   </Edit>

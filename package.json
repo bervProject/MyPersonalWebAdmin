@@ -6,11 +6,11 @@
     "@feathersjs/authentication-client": "^4.4.3",
     "@feathersjs/feathers": "^4.4.3",
     "@feathersjs/rest-client": "^4.4.3",
-    "axios": "^0.19.0",
+    "axios": "^0.19.1",
     "prop-types": "^15.7.2",
     "ra-data-feathers": "^2.5.0",
     "react": "^16.12.0",
-    "react-admin": "^2.9.9",
+    "react-admin": "^3.1.1",
     "react-dom": "^16.12.0",
     "react-scripts": "^3.3.0"
   },
