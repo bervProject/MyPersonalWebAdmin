@@ -1626,7 +1626,7 @@
   dependencies:
     debug "^4.1.1"
 
-"@feathersjs/feathers@^4.4.3", "@feathersjs/feathers@^4.5.0":
+"@feathersjs/feathers@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-4.5.0.tgz#19b7c4b3ea69b84874c4970cd8aa27480ded70ef"
   integrity sha512-pUfyJjauP7JHY6741fQKz5OAbAJpdG9BcObrOgCL6ZqtN2SataCHyBpJtHsftQJO2SF1XGZMeoz5CeIsjRIVEA==

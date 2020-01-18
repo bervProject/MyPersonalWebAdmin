@@ -34,6 +34,7 @@ class App extends Component {
   render() {
     return (
       <Admin
+        title="Berv Admin"
         dashboard={Dashboard}
         authProvider={authClient(feathersClient, authClientOptions)}
         dataProvider={restClient(feathersClient, options)}
