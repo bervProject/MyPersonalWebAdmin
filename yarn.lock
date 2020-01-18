@@ -1614,12 +1614,12 @@
     long-timeout "^0.1.1"
     uuid "^3.3.3"
 
-"@feathersjs/commons@^4.4.3", "@feathersjs/commons@^4.5.0":
+"@feathersjs/commons@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.0.tgz#955c3aa234559cf4c9e172c131032b7f8d48830f"
   integrity sha512-B3wyBath21RozzC9jmUXJjgt4kSdfzmcdNFsKoL+0W6sv6dIBPzOddIb+NI97CEBSRVpJmv4NUjh32OzkPIrGw==
 
-"@feathersjs/errors@^4.4.3", "@feathersjs/errors@^4.5.0":
+"@feathersjs/errors@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.0.tgz#215c5d4b3934c71ce17e991af158666028c053b9"
   integrity sha512-//aFWsTNCn0hThgnsjlD/k544U5qHKJ4DY/pXlCGAZ0NjUdrQUitDSRgYH+aA5FiGibG8Xv8NRjLBz6ToBAf0A==
@@ -1636,14 +1636,14 @@
     events "^3.0.0"
     uberproto "^2.0.4"
 
-"@feathersjs/rest-client@^4.4.3":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.4.3.tgz#5882a0cbf47c35fa71dba7cf7c9349b0f739b7a0"
-  integrity sha512-r3xpOWAFvTpV9q/3/vxyK7YExV1BDE4OMw20Mr2XZJm0whpuDCLgJN9FWYWPdvdT0m80rm+kgka5rM4m1421Cw==
+"@feathersjs/rest-client@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.0.tgz#dd9d9838eb52db1f45104bc975646adf0d7279b3"
+  integrity sha512-0dgr4pgnmZUnkjD9uAyAT9nKtXWzB9nxvXgHV/wXBxgmpTgoqJPQHqhFhQ8uqXQalt/HoG8RHbXxm9m3jwiYyQ==
   dependencies:
-    "@feathersjs/commons" "^4.4.3"
-    "@feathersjs/errors" "^4.4.3"
-    qs "^6.9.0"
+    "@feathersjs/commons" "^4.5.0"
+    "@feathersjs/errors" "^4.5.0"
+    qs "^6.9.1"
 
 "@feathersjs/transport-commons@^4.5.0":
   version "4.5.0"
@@ -9770,10 +9770,10 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.0.tgz#d1297e2a049c53119cb49cca366adbbacc80b409"
-  integrity sha512-27RP4UotQORTpmNQDX8BHPukOnBP3p1uUJY5UnDhaJB+rMt9iMsok724XL+UHU23bEFOHRMQ2ZhI99qOWUMGFA==
+qs@^6.9.1:
+  version "6.9.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
+  integrity sha512-Cxm7/SS/y/Z3MHWSxXb8lIFqgqBowP5JMlTUFyJN88y0SGQhVmZnqFK/PeuMX9LzUyWsqqhNxIyg0jlzq946yA==
 
 qs@~6.5.2:
   version "6.5.2"
