@@ -1670,15 +1670,15 @@
     long-timeout "^0.1.1"
     uuid "^3.4.0"
 
-"@feathersjs/commons@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.1.tgz#cd18cd9c49f9b06994c285629d97bc0dc271b32a"
-  integrity sha512-wSanrV1Tvqf4U8PE4bx+gEdLT0cCuusuoVOvyK4uOlTIOgT85qJMw9MBa99jF7BFF022EzHrpo0CjzwqcMBMIA==
+"@feathersjs/commons@^4.5.1", "@feathersjs/commons@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.2.tgz#86321aa7b6294bddbab550ffcce79633039940be"
+  integrity sha512-nlgDnM4wxjJdernzNjDMn592H6YKKOhnwFOAkM7rJvFU/qfagBJtbFh1Q4ylRhMd+zK0u/Dg2nV3D5GxJNyDBA==
 
-"@feathersjs/errors@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.1.tgz#59692b9f3ea2965393d0cf6586b82256195418bc"
-  integrity sha512-ztNL+g7pmZm4xYfmgc9ZtHfuWQl83CpCDtkXk3wZB8h4u4U0j1nUE6/QikmwzLS+/wHOnBDI7qSWV9ZnxzX1ww==
+"@feathersjs/errors@^4.5.1", "@feathersjs/errors@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.2.tgz#b6573d8b27be7069867066157c4effbc2e78ceb5"
+  integrity sha512-sfjmakwZSqbzeKxYYtuxZGTBCHANwASuqzvn6iJa83epPJFn0m2tkjpvpJujclSU6SNZoKAavG29ZKwPgxkYgA==
   dependencies:
     debug "^4.1.1"
 
@@ -1692,13 +1692,13 @@
     events "^3.1.0"
     uberproto "^2.0.4"
 
-"@feathersjs/rest-client@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.1.tgz#9089b10e311bf21350cd5c7ec02086c8ebbada38"
-  integrity sha512-mSfolBQzEV0W2KAl7S2TtcEpdZX4Mo2u7TVmAi48ZJVSX1MQeRu2Q0Funj68W6ZQtC5NkmbdYg9X2LJKP94CoQ==
+"@feathersjs/rest-client@^4.5.2":
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.2.tgz#bfff61d83a7c9c814e6573487fb961080712aeb7"
+  integrity sha512-IyKA74Ugs8H2yaeTowmi+i2/nRXUHOZgLnN3RFOLxqJvWb1lXVHxGaERe1d8fPw2OjP+SGXEBdfdXhau1b/Wyg==
   dependencies:
-    "@feathersjs/commons" "^4.5.1"
-    "@feathersjs/errors" "^4.5.1"
+    "@feathersjs/commons" "^4.5.2"
+    "@feathersjs/errors" "^4.5.2"
     qs "^6.9.1"
 
 "@feathersjs/transport-commons@^4.5.1":
