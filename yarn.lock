@@ -10101,10 +10101,10 @@ ra-core@^3.3.0:
     recompose "~0.26.0"
     reselect "~3.0.0"
 
-ra-data-feathers@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.6.0.tgz#599289ce0bcc6e84427a9c08f9964a68bba6cce8"
-  integrity sha512-luvECE5t00Zjq5aL/5yzgtw2pUUMFUWkN3iE2L8I0w3goy1tt0d44/M4PWa/gTdAbQt1atoZnGcga/aIduODfA==
+ra-data-feathers@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.7.0.tgz#34b8e2b89b5800c9bb92c7c4bdcec4286309ddbb"
+  integrity sha512-VKLM6a9jY9EmzG5CKro5mhKdjpRDDF8YhNBxx8y3tDl/yN7vIW/2CB7IzjsnFg+nW2umQ3FOVa/ZAKcXes/zmA==
   dependencies:
     debug "^3.0.0"
     jwt-decode "^2.2.0"
