@@ -988,12 +988,12 @@
     long-timeout "^0.1.1"
     uuid "^7.0.3"
 
-"@feathersjs/commons@^4.5.2", "@feathersjs/commons@^4.5.3":
+"@feathersjs/commons@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.3.tgz#72ea846c80b74e3251448486b7800e7550cb0fa1"
   integrity sha512-LsiZ0jxh13TT6SOrDq5VYtdBCv0Vdvu4a5Wei/Dvd/daZHX6ERuH6iQtfh2f5hFwuydtd+Ch/2GlYld8XziwhA==
 
-"@feathersjs/errors@^4.5.2", "@feathersjs/errors@^4.5.3":
+"@feathersjs/errors@^4.5.3":
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.3.tgz#7476de0a9586f7290b1cbe5ff481ef293660a25b"
   integrity sha512-yvy5k0X79yQBxNSmjxU8rxRrKD/YnMjqAWzT/LbJ41UIOsvRzo88pqFuNXTX8qbB90IPjtxgbSjuaxoiQZ7nmg==
@@ -8955,10 +8955,10 @@ ra-language-english@^3.4.1:
   dependencies:
     ra-core "^3.4.1"
 
-ra-ui-materialui@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.4.1.tgz#72a08cfc3fade7bc244438ae96a31c33fb0b3fa0"
-  integrity sha512-QjUUb40tkPTC4pzBXpLjnIPf0S9zEsc5HxZulH9J/HLkhG+Q2sPQ8kWISccg9LjbVfk4DDLa8m60EYm/w1SV0A==
+ra-ui-materialui@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-3.4.2.tgz#6ab59b44cbe351eee2afccfeb118ee3ea67db28d"
+  integrity sha512-P1WigQJzIGeMy2jpAoMF0PlkDKZuufUEp/J0y9YFPumHvd5Dvzzz4XCytlL+362XkzgtxVWWH+WlX8CoYD3Y2w==
   dependencies:
     autosuggest-highlight "^3.1.1"
     classnames "~2.2.5"
@@ -9016,10 +9016,10 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-3.4.1.tgz#cd7465a574f2c60ef4655670d9b45a4e35429fa6"
-  integrity sha512-0VVhqetNup+o03aRURcPO6skB1uEsxXMVKlGNbUrCczi7Mf8W0LIKpZry2l5kvnuplEQ4LfR68ad+RNFwxeeZA==
+react-admin@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-3.4.2.tgz#081a9f930e5822cf31c4cc747d058a9522f945e4"
+  integrity sha512-C0YeuWgd1fskhOk9oG6uyZidw7IEd5MkQWBKahDOY4PW59dZk8hFSuRzkVkaF8B/c/2oM1kCGuVR5likYPrJEA==
   dependencies:
     "@material-ui/core" "^4.3.3"
     "@material-ui/icons" "^4.2.1"
@@ -9030,7 +9030,7 @@ react-admin@^3.4.1:
     ra-core "^3.4.1"
     ra-i18n-polyglot "^3.4.1"
     ra-language-english "^3.4.1"
-    ra-ui-materialui "^3.4.1"
+    ra-ui-materialui "^3.4.2"
     react-final-form "^6.3.3"
     react-final-form-arrays "^3.1.1"
     react-redux "^7.1.0"
