@@ -1010,10 +1010,10 @@
     events "^3.1.0"
     uberproto "^2.0.6"
 
-"@feathersjs/rest-client@^4.5.3":
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.3.tgz#46dea275cd43ebd9795da7868e8c0058db38f289"
-  integrity sha512-E2pRVjchz2vBNf1cf4NG4o6iGF2nmuu/tE6knCzr549xBg3PTgVLeoiykCV0TvCbQQf5eNtxKYZzqQxzS+3CIQ==
+"@feathersjs/rest-client@^4.5.4":
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.4.tgz#65e225701341ef7c94b4d484e7e98acd2e179c08"
+  integrity sha512-Imu2gaP4NWFfMqmt1ANvUsvmlwN1ue7RcOk6q9EYC/CpQJCpJED5N3fHHinjh5/dNQL8YZ6NezH13DeFRYf7hA==
   dependencies:
     "@feathersjs/commons" "^4.5.3"
     "@feathersjs/errors" "^4.5.3"
