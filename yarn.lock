@@ -988,12 +988,12 @@
     long-timeout "^0.1.1"
     uuid "^8.2.0"
 
-"@feathersjs/commons@^4.5.3", "@feathersjs/commons@^4.5.5":
+"@feathersjs/commons@^4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.5.tgz#bef2abdfaeeb7860b4681f0f0ca1c1613d3f9847"
   integrity sha512-pY1yyrK6kMcdq5cdLkTtGQlsFoT3kexiSXwPc7weXPTRhpqWyZ49c5iy+6JxwyQKaMQUZCfK0KQ3CxlVdTMCQQ==
 
-"@feathersjs/errors@^4.5.3", "@feathersjs/errors@^4.5.5":
+"@feathersjs/errors@^4.5.5":
   version "4.5.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.5.tgz#04a520926db6e1b42d0fa6723708fde567af017d"
   integrity sha512-VY4OgdazSmWtmTLbr+/G/NDVKiN/3zmEVR1ngw3lgn4BGSoiohbm3m2TQ6ySROzBTpvUjQEhAQzlhlt6+1268w==
@@ -1010,14 +1010,14 @@
     events "^3.1.0"
     uberproto "^2.0.6"
 
-"@feathersjs/rest-client@^4.5.4":
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.4.tgz#65e225701341ef7c94b4d484e7e98acd2e179c08"
-  integrity sha512-Imu2gaP4NWFfMqmt1ANvUsvmlwN1ue7RcOk6q9EYC/CpQJCpJED5N3fHHinjh5/dNQL8YZ6NezH13DeFRYf7hA==
+"@feathersjs/rest-client@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.6.tgz#37ba699a9ab4e1d2902bc1379c7495e4d6421881"
+  integrity sha512-oXwMbL+vkOzErYtgGSFm7m2kcewfhZsam6sYjNBkLvNgNA8eSuP8Tvh7MJBS7Q+1MI9FRGc0M+O4c5VBb6fE2Q==
   dependencies:
-    "@feathersjs/commons" "^4.5.3"
-    "@feathersjs/errors" "^4.5.3"
-    qs "^6.9.3"
+    "@feathersjs/commons" "^4.5.5"
+    "@feathersjs/errors" "^4.5.5"
+    qs "^6.9.4"
 
 "@feathersjs/transport-commons@^4.5.5":
   version "4.5.5"
@@ -8878,10 +8878,10 @@ qs@6.7.0:
   resolved "https://registry.npmjs.org/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.9.3:
-  version "6.9.3"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.3.tgz#bfadcd296c2d549f1dffa560619132c977f5008e"
-  integrity sha512-EbZYNarm6138UKKq46tdx08Yo/q9ZhFoAXAI1meAFd2GtbRDhbZY2WQSICskT0c5q99aFzLG1D4nvTk9tqfXIw==
+qs@^6.9.4:
+  version "6.9.4"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
+  integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
 
 qs@~6.5.2:
   version "6.5.2"
