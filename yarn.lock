@@ -988,12 +988,12 @@
     long-timeout "^0.1.1"
     uuid "^8.2.0"
 
-"@feathersjs/commons@^4.5.7", "@feathersjs/commons@^4.5.8":
+"@feathersjs/commons@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-4.5.8.tgz#12351a1796f707a9940e83e875ba414f8c15291d"
   integrity sha512-8HFQjJ5fkciLbvwWOsbtUvAIOFKMRIXLg+Ynm4HLjK2wHwpWtppkYxe3TfVbc254SYigmQ1c9kK0ERjrn6CqqQ==
 
-"@feathersjs/errors@^4.5.7", "@feathersjs/errors@^4.5.8":
+"@feathersjs/errors@^4.5.8":
   version "4.5.8"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-4.5.8.tgz#4ec2d954953990f5fd61d81459577cd0e0e082e0"
   integrity sha512-PPpTHpCuWR0nbs4vvQEdXC5gLnWHmeDCF+hm9IJouzYkYIjt0UG/vKvPCBNqCREVHVfSrszdzI1MSeHRSUQddQ==
@@ -1010,13 +1010,13 @@
     events "^3.2.0"
     uberproto "^2.0.6"
 
-"@feathersjs/rest-client@^4.5.7":
-  version "4.5.7"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.7.tgz#23f3d494080fd37262410f1eb97177f1557445d7"
-  integrity sha512-Z5l7LOFTqiVuJeOmCGu01modw7Qb2wjmrRCqD333dsCviRHZzWuA5AzklTDK1LoWV3KaBJ6iKOVU7IhKySIVAg==
+"@feathersjs/rest-client@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.5.8.tgz#4f9030832839994670bd0e1b79b37e153a9bda4d"
+  integrity sha512-YG/CuuOHKlQI+94hsv0rROkYFh1+vf5Qb1ElJx3M/KiU36JtGuswIVnpEhhH3Gw+nprvJY1FZFufB78YBHk+3Q==
   dependencies:
-    "@feathersjs/commons" "^4.5.7"
-    "@feathersjs/errors" "^4.5.7"
+    "@feathersjs/commons" "^4.5.8"
+    "@feathersjs/errors" "^4.5.8"
     qs "^6.9.4"
 
 "@feathersjs/transport-commons@^4.5.8":
