@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@feathersjs/authentication-client": "^4.5.8",
-    "@feathersjs/feathers": "^4.5.7",
+    "@feathersjs/feathers": "^4.5.9",
     "@feathersjs/rest-client": "^4.5.8",
     "axios": "^0.20.0",
     "prop-types": "^15.7.2",
