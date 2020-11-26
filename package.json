@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@feathersjs/authentication-client": "^4.5.10",
-    "@feathersjs/feathers": "^4.5.9",
+    "@feathersjs/feathers": "^4.5.10",
     "@feathersjs/rest-client": "^4.5.10",
     "axios": "^0.21.0",
     "prop-types": "^15.7.2",
@@ -12,7 +12,7 @@
     "react": "^17.0.1",
     "react-admin": "^3.10.2",
     "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.0"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
