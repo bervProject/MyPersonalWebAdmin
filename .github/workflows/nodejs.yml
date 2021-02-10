@@ -20,29 +20,28 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node-version }}
-            - run: yarn
-            - run: yarn test --coverage
-            - run: bash <(curl -s https://codecov.io/bash)
-            - run: yarn build
+            - name: Yarn build & test
+              run: |
+                yarn
+                yarn test --coverage
+                yarn build
+            - name: Codecov
+              if: ${{ matrix.node-version == '12.x' }}
+              run: bash <(curl -s https://codecov.io/bash)
     docker-test:
         runs-on: ubuntu-latest
+        if: github.event_name == 'pull_request'
         needs: build
         steps:
         - uses: actions/checkout@v2
         - name: Run tests
-          run: |
-            if [ -f docker-compose.test.yml ]; then
-                docker-compose --file docker-compose.test.yml build
-                docker-compose --file docker-compose.test.yml run sut
-            else
-                docker build . --file Dockerfile
-            fi
+          run: docker build . --file Dockerfile
     docker-push:
         # Ensure test job passes before pushing image.
-        needs: docker-test
+        needs: build
         runs-on: ubuntu-latest
         if: github.event_name == 'push'
         steps:
@@ -66,4 +65,3 @@ jobs:
             echo VERSION=$VERSION
             docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
             docker push $IMAGE_ID:$VERSION
-
