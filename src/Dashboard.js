@@ -9,14 +9,15 @@ export default () => {
     totalExp: 0,
     totalEdu: 0,
     totalPorto: 0,
-    totalPost: 0
+    totalPost: 0,
+    totalDraft: 0
   });
 
   useEffect(() => {
     feathersClient.service("users").find({
       query: {
         role: 'admin',
-        $select: ['email']
+        $limit: 0
       }
     }).then(result => {
       setCount((count) => ({ ...count, totalAdmin: result.total }));
@@ -27,7 +28,7 @@ export default () => {
     feathersClient.service("users").find({
       query: {
         role: { $ne: 'admin' },
-        $select: ['email']
+        $limit: 0
       }
     }).then(result => {
       setCount((count) => ({ ...count, totalUser: result.total }));
@@ -35,28 +36,62 @@ export default () => {
   }, [count.totalUser]);
 
   useEffect(() => {
-    feathersClient.service("experience").find().then(result => {
+    feathersClient.service("experience").find({
+      query: {
+        $limit: 0
+      }
+    }).then(result => {
       setCount((count) => ({ ...count, totalExp: result.total }));
     });
   }, [count.totalExp]);
 
   useEffect(() => {
-    feathersClient.service("education").find().then(result => {
+    feathersClient.service("education").find({
+      query: {
+        $limit: 0
+      }
+    }).then(result => {
       setCount((count) => ({ ...count, totalEdu: result.total }));
     });
   }, [count.totalEdu]);
 
   useEffect(() => {
-    feathersClient.service("portofolio").find().then(result => {
+    feathersClient.service("portofolio").find({
+      query: {
+        $limit: 0
+      }
+    }).then(result => {
       setCount((count) => ({ ...count, totalPorto: result.total }));
     });
   }, [count.totalPorto]);
 
+  useEffect(() => {
+    feathersClient.service("blog").find({
+      query: {
+        draft: false,
+        $limit: 0
+      }
+    }).then(result => {
+      setCount((count) => ({ ...count, totalPost: result.total }));
+    });
+  }, [count.totalPost]);
+
+  useEffect(() => {
+    feathersClient.service("blog").find({
+      query: {
+        draft: true,
+        $limit: 0
+      }
+    }).then(result => {
+      setCount((count) => ({ ...count, totalDraft: result.total }));
+    });
+  }, [count.totalDraft]);
+
   return (
     <Grid container spacing={2}>
+      <Title title="Welcome to the administration" />
       <Grid item xs={6}>
         <Card>
-          <Title title="Welcome to the administration" />
           <CardHeader title="Users Data" />
           <CardContent>
             <p>Total Admin: {count.totalAdmin}</p>
@@ -69,10 +104,10 @@ export default () => {
       </Grid>
       <Grid item xs={6}>
         <Card>
-          <Title title="Welcome to the administration" />
           <CardHeader title="Blog Data" />
           <CardContent>
             <p>Total Post: {count.totalPost}</p>
+            <p>Total Draft: {count.totalDraft}</p>
           </CardContent>
         </Card>
       </Grid>
