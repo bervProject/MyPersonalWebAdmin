@@ -53,7 +53,7 @@ export const ExperienceCreate = props => (
       <DateInput source="toDate" />
       <TextInput source="jobName" />
       <TextInput source="institution" />
-      <TextInput source="description" />
+      <TextInput multiline source="description" />
     </SimpleForm>
   </Create>
 );
@@ -66,7 +66,7 @@ export const ExperienceEdit = props => (
       <DateInput source="toDate" />
       <TextInput source="jobName" />
       <TextInput source="institution" />
-      <TextInput source="description" />
+      <TextInput multiline source="description" />
     </SimpleForm>
   </Edit>
 );

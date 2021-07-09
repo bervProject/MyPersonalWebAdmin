@@ -59,7 +59,7 @@ export const EducationCreate = props => (
       <TextInput source="institution" />
       <TextInput source="city" />
       <TextInput source="country" />
-      <TextInput source="description" />
+      <TextInput multiline source="description" />
     </SimpleForm>
   </Create>
 );
@@ -74,7 +74,7 @@ export const EducationEdit = props => (
       <TextInput source="institution" />
       <TextInput source="city" />
       <TextInput source="country" />
-      <TextInput source="description" />
+      <TextInput multiline source="description" />
     </SimpleForm>
   </Edit>
 );
