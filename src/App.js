@@ -19,9 +19,15 @@ import {
   EducationCreate,
   EducationEdit
 } from "./services/education";
+import { PortofolioList, PortofolioShow, PortofolioUpdate, PortofolioCreate } from "./services/portofolio";
+import {
+  BlogList,
+  BlogShow,
+  BlogCreate,
+  BlogEdit
+} from "./services/blog";
 import "./App.css";
 import Dashboard from "./Dashboard";
-import { PortofolioList, PortofolioShow, PortofolioUpdate, PortofolioCreate } from "./services/portofolio";
 
 const authClientOptions = {
   storageKey: "feathers-jwt",
@@ -77,6 +83,15 @@ class App extends Component {
               show={PortofolioShow}
               edit={PortofolioUpdate}
               create={PortofolioCreate}
+            />
+          ) : null,
+          permissions === "admin" ? (
+            <Resource
+              name="blog"
+              list={BlogList}
+              show={BlogShow}
+              edit={BlogEdit}
+              create={BlogCreate}
             />
           ) : null
         ]}
