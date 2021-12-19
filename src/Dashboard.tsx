@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { Card, CardHeader, CardContent, Grid } from "@material-ui/core";
-import { Title } from "react-admin";
+import React, { useEffect, useState } from 'react';
+import { Card, CardHeader, CardContent, Grid } from '@material-ui/core';
+import { Title } from 'react-admin';
 import feathersClient from './feathersClient';
 export default () => {
   const [count, setCount] = useState({
@@ -19,7 +19,7 @@ export default () => {
         role: 'admin',
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalAdmin: result.total }));
     });
   }, [count.totalAdmin]);
@@ -30,7 +30,7 @@ export default () => {
         role: { $ne: 'admin' },
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalUser: result.total }));
     });
   }, [count.totalUser]);
@@ -40,7 +40,7 @@ export default () => {
       query: {
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalExp: result.total }));
     });
   }, [count.totalExp]);
@@ -50,7 +50,7 @@ export default () => {
       query: {
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalEdu: result.total }));
     });
   }, [count.totalEdu]);
@@ -60,7 +60,7 @@ export default () => {
       query: {
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalPorto: result.total }));
     });
   }, [count.totalPorto]);
@@ -71,7 +71,7 @@ export default () => {
         draft: false,
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalPost: result.total }));
     });
   }, [count.totalPost]);
@@ -82,7 +82,7 @@ export default () => {
         draft: true,
         $limit: 0
       }
-    }).then(result => {
+    }).then((result: any) => {
       setCount((count) => ({ ...count, totalDraft: result.total }));
     });
   }, [count.totalDraft]);

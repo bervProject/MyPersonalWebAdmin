@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   List,
   Datagrid,
@@ -14,9 +14,9 @@ import {
   SimpleShowLayout,
   EditButton,
   ShowButton
-} from "react-admin";
+} from 'react-admin';
 
-export const PortofolioList = props => (
+export const PortofolioList = (props: unknown) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -32,7 +32,7 @@ export const PortofolioList = props => (
   </List>
 );
 
-export const PortofolioShow = props => (
+export const PortofolioShow = (props: unknown) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -47,7 +47,7 @@ export const PortofolioShow = props => (
   </Show>
 );
 
-export const PortofolioCreate = props => (
+export const PortofolioCreate = (props: unknown) => (
   <Create {...props}>
     <SimpleForm>
       <TextInput source="title" />
@@ -59,7 +59,7 @@ export const PortofolioCreate = props => (
   </Create>
 );
 
-export const PortofolioUpdate = props => (
+export const PortofolioUpdate = (props: unknown) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   List,
   Datagrid,
@@ -13,9 +13,9 @@ import {
   SimpleShowLayout,
   EditButton,
   ShowButton
-} from "react-admin";
+} from 'react-admin';
 
-export const UsersList = props => (
+export const UsersList = (props: unknown) => (
   <List {...props}>
     <Datagrid>
       <TextField label="id" source="id" />
@@ -27,7 +27,7 @@ export const UsersList = props => (
   </List>
 );
 
-export const UserShow = props => (
+export const UserShow = (props: unknown) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField label="id" source="id" />
@@ -37,7 +37,7 @@ export const UserShow = props => (
   </Show>
 );
 
-export const UserCreate = props => (
+export const UserCreate = (props: unknown) => (
   <Create {...props}>
     <SimpleForm>
       <TextInput label="E-mail" source="email" type="email" />
@@ -47,7 +47,7 @@ export const UserCreate = props => (
   </Create>
 );
 
-export const UserEdit = props => (
+export const UserEdit = (props: unknown) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

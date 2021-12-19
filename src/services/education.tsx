@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   List,
   Datagrid,
@@ -13,9 +13,9 @@ import {
   SimpleShowLayout,
   EditButton,
   ShowButton
-} from "react-admin";
+} from 'react-admin';
 
-export const EducationList = props => (
+export const EducationList = (props: unknown) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -33,7 +33,7 @@ export const EducationList = props => (
   </List>
 );
 
-export const EducationShow = props => (
+export const EducationShow = (props: unknown) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -50,7 +50,7 @@ export const EducationShow = props => (
   </Show>
 );
 
-export const EducationCreate = props => (
+export const EducationCreate = (props: unknown) => (
   <Create {...props}>
     <SimpleForm>
       <DateInput source="fromDate" />
@@ -64,7 +64,7 @@ export const EducationCreate = props => (
   </Create>
 );
 
-export const EducationEdit = props => (
+export const EducationEdit = (props: unknown) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

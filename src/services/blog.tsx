@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   List,
   Datagrid,
@@ -15,10 +15,10 @@ import {
   SimpleShowLayout,
   EditButton,
   ShowButton
-} from "react-admin";
+} from 'react-admin';
 import RichTextInput from 'ra-input-rich-text';
 
-export const BlogList = props => (
+export const BlogList = (props: unknown) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -34,7 +34,7 @@ export const BlogList = props => (
   </List>
 );
 
-export const BlogShow = props => (
+export const BlogShow = (props: unknown) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -48,7 +48,7 @@ export const BlogShow = props => (
   </Show>
 );
 
-export const BlogCreate = props => (
+export const BlogCreate = (props: unknown) => (
   <Create {...props}>
     <SimpleForm>
       <RichTextInput source="content" />
@@ -57,7 +57,7 @@ export const BlogCreate = props => (
   </Create>
 );
 
-export const BlogEdit = props => (
+export const BlogEdit = (props: unknown) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

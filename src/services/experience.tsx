@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   List,
   Datagrid,
@@ -13,9 +13,9 @@ import {
   SimpleShowLayout,
   EditButton,
   ShowButton
-} from "react-admin";
+} from 'react-admin';
 
-export const ExperienceList = props => (
+export const ExperienceList = (props: unknown) => (
   <List {...props}>
     <Datagrid>
       <TextField label="id" source="id" />
@@ -31,7 +31,7 @@ export const ExperienceList = props => (
   </List>
 );
 
-export const ExperienceShow = props => (
+export const ExperienceShow = (props: unknown) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField label="id" source="id" />
@@ -46,7 +46,7 @@ export const ExperienceShow = props => (
   </Show>
 );
 
-export const ExperienceCreate = props => (
+export const ExperienceCreate = (props: unknown) => (
   <Create {...props}>
     <SimpleForm>
       <DateInput source="fromDate" />
@@ -58,7 +58,7 @@ export const ExperienceCreate = props => (
   </Create>
 );
 
-export const ExperienceEdit = props => (
+export const ExperienceEdit = (props: unknown) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />
