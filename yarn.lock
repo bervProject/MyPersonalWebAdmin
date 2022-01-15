@@ -1085,10 +1085,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@feathersjs/authentication-client@^4.5.12":
-  version "4.5.12"
-  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-client/-/authentication-client-4.5.12.tgz#dc464fb402937a9e1e145b73e83d30af7c0053d2"
-  integrity sha512-2v0cCaOzPp0msbR0GYrNoJXuj908XP2K7kQoR7aXQsUR+kODaEYdTAbWARDd4HET9QvFzm4yTJOHxDBEsvhD+Q==
+"@feathersjs/authentication-client@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-client/-/authentication-client-4.5.13.tgz#975e48f2d2789f29e7c15b3da880c28cbe05fac3"
+  integrity sha512-qcrgJ+fRy11Gs7H0BVp8wy1NV3SSSDmWlLr3R5bEii2UBY0TSJu39swUpypDw/93F85aDghpuj1l/u44dF5/3g==
   dependencies:
     "@feathersjs/authentication" "^4.5.12"
     "@feathersjs/commons" "^4.5.12"
