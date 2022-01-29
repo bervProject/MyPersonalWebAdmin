@@ -7476,10 +7476,10 @@ ra-core@^3.19.7:
     query-string "^5.1.1"
     reselect "~3.0.0"
 
-ra-data-feathers@^2.9.1:
-  version "2.9.1"
-  resolved "https://registry.npmjs.org/ra-data-feathers/-/ra-data-feathers-2.9.1.tgz#7f1aebb65aa8b35708e1964015efbd69e8d22e38"
-  integrity sha512-p1uH+1nf34jcpwxnY6sJTJKxpMjIME84wvTemADyOgxfTw6KdIvjwBjCXYP+muqA49T9LSO30t5EGoTtgU2YEA==
+ra-data-feathers@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.9.3.tgz#94926353e4a4ad01dcf319e2dcb5aa63647b6178"
+  integrity sha512-uziiQQzxSHSROOAvCen/PC1bO4fpqdYPbyF2wrIR35lN1Dh/7ROyWjyWs98QIXNi3Xn4dCbORhfpGqssBU8VLA==
   dependencies:
     debug "^3.0.0"
     jwt-decode "^2.2.0"
