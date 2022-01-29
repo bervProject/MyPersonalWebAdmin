@@ -9,7 +9,7 @@
     "axios": "^0.25.0",
     "prop-types": "^15.8.1",
     "ra-data-feathers": "^2.9.1",
-    "ra-input-rich-text": "^3.19.6",
+    "ra-input-rich-text": "^3.19.7",
     "react": "^17.0.2",
     "react-admin": "^3.19.6",
     "react-dom": "^17.0.2",
