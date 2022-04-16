@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, CardHeader, CardContent, Grid } from '@material-ui/core';
+import { Card, CardHeader, CardContent, Grid } from '@mui/material';
 import { Title } from 'react-admin';
 import feathersClient from './feathersClient';
 export default () => {

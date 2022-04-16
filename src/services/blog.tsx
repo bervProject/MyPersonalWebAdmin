@@ -16,7 +16,7 @@ import {
   EditButton,
   ShowButton
 } from 'react-admin';
-import RichTextInput from 'ra-input-rich-text';
+import { RichTextInput } from 'ra-input-rich-text';
 
 export const BlogList = (props: unknown) => (
   <List {...props}>

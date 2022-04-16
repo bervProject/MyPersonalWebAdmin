@@ -1,10 +1,10 @@
 import React from 'react';
-import { Admin, Resource } from 'react-admin';
+import { Admin, Resource, ResourceElement } from 'react-admin';
 import { authClient, restClient } from 'ra-data-feathers';
 import feathersClient from "./feathersClient";
-import UserIcon from "@material-ui/icons/Person";
-import StarIcon from "@material-ui/icons/Star";
-import SchoolIcon from "@material-ui/icons/School";
+import UserIcon from "@mui/icons-material/People";
+import StarIcon from "@mui/icons-material/Star";
+import SchoolIcon from "@mui/icons-material/School";
 
 import { UsersList, UserCreate, UserEdit, UserShow } from "./services/users";
 import {
@@ -36,6 +36,57 @@ const authClientOptions = {
 
 const options = { id: "id" };
 
+const resourceList = (permissions: any) => [
+  permissions === "admin" ? (
+    <Resource
+      name="users"
+      list={UsersList}
+      create={UserCreate}
+      edit={UserEdit}
+      icon={UserIcon}
+      show={UserShow}
+    />
+  ) : null,
+  permissions === "admin" ? (
+    <Resource
+      name="experience"
+      icon={StarIcon}
+      list={ExperienceList}
+      show={ExperienceShow}
+      edit={ExperienceEdit}
+      create={ExperienceCreate}
+    />
+  ): null,
+  permissions === "admin" ? (
+    <Resource
+      name="education"
+      icon={SchoolIcon}
+      list={EducationList}
+      show={EducationShow}
+      edit={EducationEdit}
+      create={EducationCreate}
+    />
+  ) : null,
+  permissions === "admin" ? (
+    <Resource
+      name="portofolio"
+      list={PortofolioList}
+      show={PortofolioShow}
+      edit={PortofolioUpdate}
+      create={PortofolioCreate}
+    />
+  ) : null,
+  permissions === "admin" ? (
+    <Resource
+      name="blog"
+      list={BlogList}
+      show={BlogShow}
+      edit={BlogEdit}
+      create={BlogCreate}
+    />
+  ) : null
+].filter((element) => Boolean(element)).map(element => element as JSX.Element);
+
 function App() {
   return (
     <Admin
@@ -44,56 +95,7 @@ function App() {
       authProvider={authClient(feathersClient, authClientOptions)}
       dataProvider={restClient(feathersClient, options)}
     >
-      {permissions => [
-        permissions === "admin" ? (
-          <Resource
-            name="users"
-            list={UsersList}
-            create={UserCreate}
-            edit={UserEdit}
-            icon={UserIcon}
-            show={UserShow}
-          />
-        ) : null,
-        permissions === "admin" ? (
-          <Resource
-            name="experience"
-            icon={StarIcon}
-            list={ExperienceList}
-            show={ExperienceShow}
-            edit={ExperienceEdit}
-            create={ExperienceCreate}
-          />
-        ) : null,
-        permissions === "admin" ? (
-          <Resource
-            name="education"
-            icon={SchoolIcon}
-            list={EducationList}
-            show={EducationShow}
-            edit={EducationEdit}
-            create={EducationCreate}
-          />
-        ) : null,
-        permissions === "admin" ? (
-          <Resource
-            name="portofolio"
-            list={PortofolioList}
-            show={PortofolioShow}
-            edit={PortofolioUpdate}
-            create={PortofolioCreate}
-          />
-        ) : null,
-        permissions === "admin" ? (
-          <Resource
-            name="blog"
-            list={BlogList}
-            show={BlogShow}
-            edit={BlogEdit}
-            create={BlogCreate}
-          />
-        ) : null
-      ]}
+      {resourceList}
     </Admin>
   );
 }
