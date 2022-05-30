@@ -18,7 +18,7 @@ import {
 } from 'react-admin';
 import { RichTextInput } from 'ra-input-rich-text';
 
-export const BlogList = (props: unknown) => (
+export const BlogList = (props: object) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -34,7 +34,7 @@ export const BlogList = (props: unknown) => (
   </List>
 );
 
-export const BlogShow = (props: unknown) => (
+export const BlogShow = (props: object) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -48,7 +48,7 @@ export const BlogShow = (props: unknown) => (
   </Show>
 );
 
-export const BlogCreate = (props: unknown) => (
+export const BlogCreate = (props: object) => (
   <Create {...props}>
     <SimpleForm>
       <RichTextInput source="content" />
@@ -57,7 +57,7 @@ export const BlogCreate = (props: unknown) => (
   </Create>
 );
 
-export const BlogEdit = (props: unknown) => (
+export const BlogEdit = (props: object) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

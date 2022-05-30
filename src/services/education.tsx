@@ -15,7 +15,7 @@ import {
   ShowButton
 } from 'react-admin';
 
-export const EducationList = (props: unknown) => (
+export const EducationList = (props: object) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -33,7 +33,7 @@ export const EducationList = (props: unknown) => (
   </List>
 );
 
-export const EducationShow = (props: unknown) => (
+export const EducationShow = (props: object) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -50,7 +50,7 @@ export const EducationShow = (props: unknown) => (
   </Show>
 );
 
-export const EducationCreate = (props: unknown) => (
+export const EducationCreate = (props: object) => (
   <Create {...props}>
     <SimpleForm>
       <DateInput source="fromDate" />
@@ -64,7 +64,7 @@ export const EducationCreate = (props: unknown) => (
   </Create>
 );
 
-export const EducationEdit = (props: unknown) => (
+export const EducationEdit = (props: object) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

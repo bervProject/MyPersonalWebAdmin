@@ -16,7 +16,7 @@ import {
   ShowButton
 } from 'react-admin';
 
-export const PortofolioList = (props: unknown) => (
+export const PortofolioList = (props: object) => (
   <List {...props}>
     <Datagrid>
       <TextField source="id" />
@@ -32,7 +32,7 @@ export const PortofolioList = (props: unknown) => (
   </List>
 );
 
-export const PortofolioShow = (props: unknown) => (
+export const PortofolioShow = (props: object) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField source="id" />
@@ -47,7 +47,7 @@ export const PortofolioShow = (props: unknown) => (
   </Show>
 );
 
-export const PortofolioCreate = (props: unknown) => (
+export const PortofolioCreate = (props: object) => (
   <Create {...props}>
     <SimpleForm>
       <TextInput source="title" />
@@ -59,7 +59,7 @@ export const PortofolioCreate = (props: unknown) => (
   </Create>
 );
 
-export const PortofolioUpdate = (props: unknown) => (
+export const PortofolioUpdate = (props: object) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

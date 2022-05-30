@@ -15,7 +15,7 @@ import {
   ShowButton
 } from 'react-admin';
 
-export const ExperienceList = (props: unknown) => (
+export const ExperienceList = (props: object) => (
   <List {...props}>
     <Datagrid>
       <TextField label="id" source="id" />
@@ -31,7 +31,7 @@ export const ExperienceList = (props: unknown) => (
   </List>
 );
 
-export const ExperienceShow = (props: unknown) => (
+export const ExperienceShow = (props: object) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField label="id" source="id" />
@@ -46,7 +46,7 @@ export const ExperienceShow = (props: unknown) => (
   </Show>
 );
 
-export const ExperienceCreate = (props: unknown) => (
+export const ExperienceCreate = (props: object) => (
   <Create {...props}>
     <SimpleForm>
       <DateInput source="fromDate" />
@@ -58,7 +58,7 @@ export const ExperienceCreate = (props: unknown) => (
   </Create>
 );
 
-export const ExperienceEdit = (props: unknown) => (
+export const ExperienceEdit = (props: object) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />

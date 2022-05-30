@@ -15,7 +15,7 @@ import {
   ShowButton
 } from 'react-admin';
 
-export const UsersList = (props: unknown) => (
+export const UsersList = (props: object) => (
   <List {...props}>
     <Datagrid>
       <TextField label="id" source="id" />
@@ -27,7 +27,7 @@ export const UsersList = (props: unknown) => (
   </List>
 );
 
-export const UserShow = (props: unknown) => (
+export const UserShow = (props: object) => (
   <Show {...props}>
     <SimpleShowLayout>
       <TextField label="id" source="id" />
@@ -37,7 +37,7 @@ export const UserShow = (props: unknown) => (
   </Show>
 );
 
-export const UserCreate = (props: unknown) => (
+export const UserCreate = (props: object) => (
   <Create {...props}>
     <SimpleForm>
       <TextInput label="E-mail" source="email" type="email" />
@@ -47,7 +47,7 @@ export const UserCreate = (props: unknown) => (
   </Create>
 );
 
-export const UserEdit = (props: unknown) => (
+export const UserEdit = (props: object) => (
   <Edit {...props}>
     <SimpleForm>
       <TextInput disabled source="id" />
