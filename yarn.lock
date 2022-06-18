@@ -7798,10 +7798,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.3.tgz#173ed689252c07f9d766fdaca74a628f744fd0bd"
-  integrity sha512-1vvkAU4uvCvJQp5w7dAt2+fJ1yisdUh7xZIV2/wLr4ltCM+FJSmAsmoZPdgUpdX7pHwxwqSLLFnZAPDKvkx04Q==
+ra-core@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.4.tgz#d0d2f2999c2eae3524d77a9d3ada934dffc9d445"
+  integrity sha512-7SXzWrt0TPASBdzi6AX1rB38t1ksldGJAf68Yo1dW6dxK2csRW7Yzg/oNK59D4rb1zb8DqciKhA7srz2G21P9g==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -7823,13 +7823,13 @@ ra-data-feathers@^2.9.3:
     jwt-decode "^2.2.0"
     object-diff "^0.0.4"
 
-ra-i18n-polyglot@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.1.3.tgz#4e784d56569b4bff67958f64c39fa0a169a7acc1"
-  integrity sha512-alTeQrp1HwO+SMM1gU6C00yHJ/mdLxLmNW7uSSqgkhjbNUzWeJQTioxrI6zTBtoOYQUeks0HgBXGQPbHzaOBvQ==
+ra-i18n-polyglot@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.1.4.tgz#fe8e6a480e9c82832268d0559514aba76d60b0c8"
+  integrity sha512-q8Y6Xh6EVHtlSwyqFvbMk/iGra6LlseGNX+/nYxT+urw4M+eTahrZd848ZpYXgejO+EDtFWJvRNWYo3VH9coxA==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^4.1.3"
+    ra-core "^4.1.4"
 
 ra-input-rich-text@^4.1.4:
   version "4.1.4"
@@ -7844,17 +7844,17 @@ ra-input-rich-text@^4.1.4:
     "@tiptap/starter-kit" "^2.0.0-beta.101"
     clsx "^1.1.1"
 
-ra-language-english@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.1.3.tgz#5bbe8ddecb9c840230b820484aafab6fa01d3c6d"
-  integrity sha512-kyt+qx1wRYirccG5Xx+49FFECSbfpknHoNthA5AV9UdU+tWsfKBAnuyht1QyFhbE6fftJ8DyJxl1HVhBFzdb/Q==
+ra-language-english@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.1.4.tgz#a6d50e553332f319534cb2e2dfa662d8c825d515"
+  integrity sha512-+yxzKm8zxyHGY2kIf4kn4EDsNtNhGiZht0QTUJd9QI0HMthyCmnJsHJWaGLQxL1WbhdwfYvmlP8md6g+GAhIxA==
   dependencies:
-    ra-core "^4.1.3"
+    ra-core "^4.1.4"
 
-ra-ui-materialui@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.1.3.tgz#e064eb85a465a3b6c65f0fa78f311c3203ffa079"
-  integrity sha512-+wdjxrisgsVsJb0WsnLdRRf69sbaYQ14AVAM04GjDv4FS+SORms7yzMlB96NWGAEfR6FsZeDSIsb256RFNna+Q==
+ra-ui-materialui@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.1.4.tgz#17ecac218e44ad000daa6bd20a5bc51ef4d31004"
+  integrity sha512-EktJU0zjjq3eaOECG4N+iAYrNdAzwSDTDIPk1wACzKLyJm8mZ8+vg1UuzkzHtfvlAtNEObPACQGAYBPAu5Morw==
   dependencies:
     autosuggest-highlight "^3.1.1"
     clsx "^1.1.1"
@@ -7902,20 +7902,20 @@ raw-body@2.4.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.1.3.tgz#6f20a91392613da277bf60463d337f9032e298af"
-  integrity sha512-nx9bolUnrXvRxnxU8YcNBNJZDNUCgUOsI2XG+XF3GUuExYc97JmgrEVBjCRni3GL1vG8t5ulZJOOXzEjRTW90A==
+react-admin@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.1.4.tgz#74dfceb1f83cb59f0410f8b8a5cd8ba55d071c57"
+  integrity sha512-7i2otuKUPysW3uSQ6VabXeEOuzUIS0fhv52AQ9Xan9TndUmAkp+sR4zw5RePcUMNE0IJBwW+0+rz/yhUEjyWrQ==
   dependencies:
     "@emotion/react" "^11.4.1"
     "@emotion/styled" "^11.3.0"
     "@mui/icons-material" "^5.0.1"
     "@mui/material" "^5.0.2"
     history "^5.1.0"
-    ra-core "^4.1.3"
-    ra-i18n-polyglot "^4.1.3"
-    ra-language-english "^4.1.3"
-    ra-ui-materialui "^4.1.3"
+    ra-core "^4.1.4"
+    ra-i18n-polyglot "^4.1.4"
+    ra-language-english "^4.1.4"
+    ra-ui-materialui "^4.1.4"
     react-hook-form "^7.31.0"
     react-router "^6.1.0"
     react-router-dom "^6.1.0"
