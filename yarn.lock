@@ -3613,6 +3613,11 @@ css-loader@^6.5.1:
     postcss-value-parser "^4.1.0"
     semver "^7.3.5"
 
+css-mediaquery@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/css-mediaquery/-/css-mediaquery-0.1.2.tgz#6a2c37344928618631c54bd33cedd301da18bea0"
+  integrity sha512-COtn4EROW5dBGlE/4PiKnh6rZpAPxDeFLaEEwt4i10jpDMFt2EhQGS79QmmrO+iKCHv0PU/HrOWEhijFd1x99Q==
+
 css-minimizer-webpack-plugin@^3.2.0:
   version "3.3.1"
   resolved "https://registry.npmjs.org/css-minimizer-webpack-plugin/-/css-minimizer-webpack-plugin-3.3.1.tgz#5afc4507a4ec13dd223f043cda8953ee0bf6ecfa"
@@ -7798,10 +7803,10 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.1.4.tgz#d0d2f2999c2eae3524d77a9d3ada934dffc9d445"
-  integrity sha512-7SXzWrt0TPASBdzi6AX1rB38t1ksldGJAf68Yo1dW6dxK2csRW7Yzg/oNK59D4rb1zb8DqciKhA7srz2G21P9g==
+ra-core@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/ra-core/-/ra-core-4.1.5.tgz#da914353a5eb4e057efa2202caf8cca7c85830c1"
+  integrity sha512-jWsbVGQUeG1R7e3k9XXERA6PzIiVxBtVxXsOgj5kYoTsRNO/0/9ccBlb5HUJ8T/qjTJcPvsLol3+7ySR7Z8+tw==
   dependencies:
     clsx "^1.1.1"
     date-fns "^2.19.0"
@@ -7823,18 +7828,18 @@ ra-data-feathers@^2.9.3:
     jwt-decode "^2.2.0"
     object-diff "^0.0.4"
 
-ra-i18n-polyglot@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.1.4.tgz#fe8e6a480e9c82832268d0559514aba76d60b0c8"
-  integrity sha512-q8Y6Xh6EVHtlSwyqFvbMk/iGra6LlseGNX+/nYxT+urw4M+eTahrZd848ZpYXgejO+EDtFWJvRNWYo3VH9coxA==
+ra-i18n-polyglot@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/ra-i18n-polyglot/-/ra-i18n-polyglot-4.1.5.tgz#526066d05394a64c3470ab8ee8fda1a011bac56a"
+  integrity sha512-vfJ9wLPUmp86ndIPYSdXi6l8v3JEy/EoRUCdsNuNnbDdsEhe9wtSTIqd6eolt1ORaXxgUuZwE3pa0tTRDKpqOg==
   dependencies:
     node-polyglot "^2.2.2"
-    ra-core "^4.1.4"
+    ra-core "^4.1.5"
 
-ra-input-rich-text@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-4.1.4.tgz#e367ef9dfb6b12afb315cf56804d5064007bec82"
-  integrity sha512-6LJqZ3dEmZexPa4obAsx0EVET+XTKJeK7ZncKj94N2wA4BjTykClE2BcGhGFa2oViUSaX/vngCG6H8RNItjQ0A==
+ra-input-rich-text@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/ra-input-rich-text/-/ra-input-rich-text-4.1.5.tgz#dccb3b5d247f0c120e110f102ddbfa463bb1dd7f"
+  integrity sha512-pkAKnjqkVcviEfl5nekSzaABu+FkaMWS5Z3JNeEg1VY6OdNfemTbNCrNbn4VzQRtSHsxpotMH+KEnmdBQ3oboA==
   dependencies:
     "@tiptap/extension-link" "^2.0.0-beta.20"
     "@tiptap/extension-placeholder" "^2.0.0-beta.30"
@@ -7844,20 +7849,21 @@ ra-input-rich-text@^4.1.4:
     "@tiptap/starter-kit" "^2.0.0-beta.101"
     clsx "^1.1.1"
 
-ra-language-english@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.1.4.tgz#a6d50e553332f319534cb2e2dfa662d8c825d515"
-  integrity sha512-+yxzKm8zxyHGY2kIf4kn4EDsNtNhGiZht0QTUJd9QI0HMthyCmnJsHJWaGLQxL1WbhdwfYvmlP8md6g+GAhIxA==
+ra-language-english@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/ra-language-english/-/ra-language-english-4.1.5.tgz#20b082c242256eb892d397e6d71eb158e7909a09"
+  integrity sha512-TxxjQ4bwTTtJ99qtvueifMjh7Tzv/+dgKIuTRjMik8u503TH/Z8d9x7UwScqVJw13RNT6vxZZCKQ0zPkPT4xKA==
   dependencies:
-    ra-core "^4.1.4"
+    ra-core "^4.1.5"
 
-ra-ui-materialui@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.1.4.tgz#17ecac218e44ad000daa6bd20a5bc51ef4d31004"
-  integrity sha512-EktJU0zjjq3eaOECG4N+iAYrNdAzwSDTDIPk1wACzKLyJm8mZ8+vg1UuzkzHtfvlAtNEObPACQGAYBPAu5Morw==
+ra-ui-materialui@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/ra-ui-materialui/-/ra-ui-materialui-4.1.5.tgz#b69910ce36cb88770171364f7000fdd72f279344"
+  integrity sha512-DiAIhC6GR+RFGpc5MHbNDlDThQvXRYsNis+BB2liRi8HacD9ACwLORs5LmKNIzMWAwdA16Oq6y3DBPiO96DfpA==
   dependencies:
     autosuggest-highlight "^3.1.1"
     clsx "^1.1.1"
+    css-mediaquery "^0.1.2"
     inflection "~1.12.0"
     jsonexport "^3.2.0"
     lodash "~4.17.5"
@@ -7902,20 +7908,20 @@ raw-body@2.4.2:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.1.4.tgz#74dfceb1f83cb59f0410f8b8a5cd8ba55d071c57"
-  integrity sha512-7i2otuKUPysW3uSQ6VabXeEOuzUIS0fhv52AQ9Xan9TndUmAkp+sR4zw5RePcUMNE0IJBwW+0+rz/yhUEjyWrQ==
+react-admin@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/react-admin/-/react-admin-4.1.5.tgz#a86c57f945d442cb364d7bb89265c5f379e168ea"
+  integrity sha512-xDap+LtLQxziVDzrEReu9Znv6Ozl2YLW31A7dgV9/YHyZ0Xsp6PV6HhBS0cTUSJHj1DuAYCGBHCNu/QfFXETTg==
   dependencies:
     "@emotion/react" "^11.4.1"
     "@emotion/styled" "^11.3.0"
     "@mui/icons-material" "^5.0.1"
     "@mui/material" "^5.0.2"
     history "^5.1.0"
-    ra-core "^4.1.4"
-    ra-i18n-polyglot "^4.1.4"
-    ra-language-english "^4.1.4"
-    ra-ui-materialui "^4.1.4"
+    ra-core "^4.1.5"
+    ra-i18n-polyglot "^4.1.5"
+    ra-language-english "^4.1.5"
+    ra-ui-materialui "^4.1.5"
     react-hook-form "^7.31.0"
     react-router "^6.1.0"
     react-router-dom "^6.1.0"
@@ -7962,13 +7968,13 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^18.1.0:
-  version "18.1.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.1.0.tgz#7f6dd84b706408adde05e1df575b3a024d7e8a2f"
-  integrity sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==
+react-dom@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
   dependencies:
     loose-envify "^1.1.0"
-    scheduler "^0.22.0"
+    scheduler "^0.23.0"
 
 react-dropzone@^12.0.4:
   version "12.0.5"
@@ -8389,10 +8395,10 @@ saxes@^5.0.1:
   dependencies:
     xmlchars "^2.2.0"
 
-scheduler@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.22.0.tgz#83a5d63594edf074add9a7198b1bae76c3db01b8"
-  integrity sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
   dependencies:
     loose-envify "^1.1.0"
 
