@@ -1820,6 +1820,11 @@
   resolved "https://registry.npmjs.org/@tiptap/extension-code/-/extension-code-2.0.0-beta.26.tgz#bbfa600a252ee2cded6947b56b6c4c33d998e53a"
   integrity sha512-QcFWdEFfbJ1n5UFFBD17QPPAJ3J5p/b7XV484u0shCzywO7aNPV32QeHy1z0eMoyZtCbOWf6hg/a7Ugv8IwpHw==
 
+"@tiptap/extension-color@^2.0.0-beta.9":
+  version "2.0.0-beta.12"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-color/-/extension-color-2.0.0-beta.12.tgz#9f8dea84f75c1533383d87719218471e87c83c9c"
+  integrity sha512-ddFIUdb7e0gLlYlcQiyZ+zRC4nXtpX2bhOHZ7IdCasoHYEWs/8dsncngLtymAgsRBeruMZ5K6ZhAYtgQVUugqQ==
+
 "@tiptap/extension-document@^2.0.0-beta.15":
   version "2.0.0-beta.15"
   resolved "https://registry.npmjs.org/@tiptap/extension-document/-/extension-document-2.0.0-beta.15.tgz#5d17a0289244a913ab2ef08e8495a1e46950711e"
@@ -1860,6 +1865,11 @@
   resolved "https://registry.npmjs.org/@tiptap/extension-heading/-/extension-heading-2.0.0-beta.26.tgz#112b14b4d488772bda36abbf7cb2bc8aba7c42f5"
   integrity sha512-nR6W/3rjnZH1Swo7tGBoYsmO6xMvu9MGq6jlm3WVHCB7B3CsrRvCkTwGjVIbKTaZC4bQfx5gvAUpQFvwuU+M5w==
 
+"@tiptap/extension-highlight@^2.0.0-beta.33":
+  version "2.0.0-beta.35"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-highlight/-/extension-highlight-2.0.0-beta.35.tgz#0738102b23f69f9c8ddada4f05ccb580d1d50133"
+  integrity sha512-xvEKOyuTj4mhQ8GIOItaSymJhGkWt2gGuCvmFWnTVZAaJJQOlgUTdkmayLCtwoDDP7biiuDhRJokTukGGmhUZw==
+
 "@tiptap/extension-history@^2.0.0-beta.21":
   version "2.0.0-beta.21"
   resolved "https://registry.npmjs.org/@tiptap/extension-history/-/extension-history-2.0.0-beta.21.tgz#5d96a17a83a7130744f0757a3275dd5b11eb1bf7"
@@ -1874,6 +1884,11 @@
   integrity sha512-MNc4retfjRgkv3qxqGya0+/BEd1Kmn+oMsCRvE+8x3sXyKIse+vdqMuG5qUcA6np0ZD/9hh1riiQ1GQdgc23Ng==
   dependencies:
     prosemirror-state "^1.3.4"
+
+"@tiptap/extension-image@^2.0.0-beta.27":
+  version "2.0.0-beta.30"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-image/-/extension-image-2.0.0-beta.30.tgz#60c6cfd09bfd017a3d8b1feaf0931462ffd71a60"
+  integrity sha512-VhEmgiKkZMiKR7hbpJgIlIUS/QNjSGI5ER7mKDAbuV1IB5yb6nGjZ6o3Exrr2/CaTaW5hQarBC1z2Xgdu05EGg==
 
 "@tiptap/extension-italic@^2.0.0-beta.26":
   version "2.0.0-beta.26"
@@ -1922,6 +1937,11 @@
   version "2.0.0-beta.29"
   resolved "https://registry.npmjs.org/@tiptap/extension-text-align/-/extension-text-align-2.0.0-beta.29.tgz#31df3d23e7c66caf401a1850a80b88f5cedab0a8"
   integrity sha512-FNGpl0tVtgG7AK9kVWF/+CGYHta05NpoME4/j6+vhNlZLBNXRA+AKg7W5T8UxmtaC9yGoJsBs2X8M9eCxWVaEQ==
+
+"@tiptap/extension-text-style@^2.0.0-beta.23":
+  version "2.0.0-beta.26"
+  resolved "https://registry.yarnpkg.com/@tiptap/extension-text-style/-/extension-text-style-2.0.0-beta.26.tgz#f46105d687e817563e4acac5d67457e67e73d3ad"
+  integrity sha512-sHUlj5j86W53jvj9ijhXGyqxDdT2c9B7lVwdmDtksvSIrRYuCFqn7hFBzlypNBb56zePqBlIFymUmhK283L6fQ==
 
 "@tiptap/extension-text@^2.0.0-beta.15":
   version "2.0.0-beta.15"
@@ -7888,14 +7908,18 @@ ra-i18n-polyglot@^4.2.0:
     node-polyglot "^2.2.2"
     ra-core "^4.2.0"
 
-ra-input-rich-text@^4.1.5:
-  version "4.1.5"
-  resolved "https://registry.npmjs.org/ra-input-rich-text/-/ra-input-rich-text-4.1.5.tgz#dccb3b5d247f0c120e110f102ddbfa463bb1dd7f"
-  integrity sha512-pkAKnjqkVcviEfl5nekSzaABu+FkaMWS5Z3JNeEg1VY6OdNfemTbNCrNbn4VzQRtSHsxpotMH+KEnmdBQ3oboA==
+ra-input-rich-text@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-4.2.0.tgz#3cd4ac8895ef6e852794083fb965c2ea2083d573"
+  integrity sha512-NBzxvI/Zndx+Sa75+yTAlZArxEzTyDAqYF03UUgUFuVv/aOOr/sJwYMPVXV/RxuHu6u3PqXIYSAp06bspuvB9A==
   dependencies:
+    "@tiptap/extension-color" "^2.0.0-beta.9"
+    "@tiptap/extension-highlight" "^2.0.0-beta.33"
+    "@tiptap/extension-image" "^2.0.0-beta.27"
     "@tiptap/extension-link" "^2.0.0-beta.20"
     "@tiptap/extension-placeholder" "^2.0.0-beta.30"
     "@tiptap/extension-text-align" "^2.0.0-beta.23"
+    "@tiptap/extension-text-style" "^2.0.0-beta.23"
     "@tiptap/extension-underline" "^2.0.0-beta.16"
     "@tiptap/react" "^2.0.0-beta.63"
     "@tiptap/starter-kit" "^2.0.0-beta.101"
