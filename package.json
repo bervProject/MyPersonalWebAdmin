@@ -6,7 +6,7 @@
     "@feathersjs/authentication-client": "^4.5.15",
     "@feathersjs/feathers": "^4.5.15",
     "@feathersjs/rest-client": "^4.5.15",
-    "axios": "^0.27.2",
+    "axios": "^1.1.2",
     "prop-types": "^15.8.1",
     "ra-data-feathers": "^2.9.3",
     "ra-input-rich-text": "^4.4.1",
