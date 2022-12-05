@@ -1,11 +1,11 @@
-import type { Config } from 'jest';
+import type { Config } from "jest";
 const config: Config = {
   preset: "ts-jest",
   collectCoverage: true,
   testEnvironment: "jsdom",
   collectCoverageFrom: ["**/src/**/*.{ts,tsx}"],
   coverageDirectory: "./coverage/",
-  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  transformIgnorePatterns: ["<rootDir>/node_modules/"],
   moduleNameMapper: {
     "^axios$": require.resolve("axios"),
     "\\.(css|less|scss|sass)$": "identity-obj-proxy"
