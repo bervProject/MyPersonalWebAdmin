@@ -9267,7 +9267,7 @@ quick-lru@^5.1.1:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-ra-core@^4.7.6, ra-core@^4.8.0:
+ra-core@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/ra-core/-/ra-core-4.8.0.tgz#9b227f4452461a842bbf4b169a4b7b8a795d81a3"
   integrity sha512-4FFf9YsuCF2jDVQhTcuXNTJowcM03butEzNJeJ9/DElAFTURwHuxsJMMpDVGMsBKOpsVmQIO0CEzPwTvkGygZQ==
@@ -9292,7 +9292,7 @@ ra-data-feathers@^2.9.3:
     jwt-decode "^2.2.0"
     object-diff "^0.0.4"
 
-ra-i18n-polyglot@^4.7.6:
+ra-i18n-polyglot@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/ra-i18n-polyglot/-/ra-i18n-polyglot-4.8.0.tgz#f50358924c2c1905da83947d7614d0aa8f2345b6"
   integrity sha512-aVq+ZeYyyvle+pyTMkIPILFAPrfK7OOBVl80pDOg937TcGLEYrC9h9jGrz1km/0fO7pyE41bQzIBCJ/6Qhieew==
@@ -9319,14 +9319,14 @@ ra-input-rich-text@^4.8.0:
     "@tiptap/starter-kit" "^2.0.0-beta.217"
     clsx "^1.1.1"
 
-ra-language-english@^4.7.6:
+ra-language-english@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/ra-language-english/-/ra-language-english-4.8.0.tgz#6bcc15c74505d27e797bff7e58e295b54a8358e5"
   integrity sha512-UP5PjQ2acKN6e1vRmGG6h0H3mC7mVwucQhe3BLrLFxnKRJ+eDCnNwW5SS/feIjeBWm0o6z7KdhHCVUP9TYTdIA==
   dependencies:
     ra-core "^4.8.0"
 
-ra-ui-materialui@^4.7.6:
+ra-ui-materialui@^4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/ra-ui-materialui/-/ra-ui-materialui-4.8.0.tgz#a759b8c3a4ecc09e5b8fb171ee4dfb03b377cdf6"
   integrity sha512-RRy3IFzdqMy0oQTxjwbnpqdY7kNHPr3QiXQcutxF1KLf334jVK7K+i31diM51FOpmIrhieXEeGk/8hwAZf+fpg==
@@ -9379,20 +9379,20 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-admin@^4.7.6:
-  version "4.7.6"
-  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.7.6.tgz#c188288bba0f69132ecd5e4f72685ae91031b478"
-  integrity sha512-rCWE5frfzZOA4rDPh5WohPUae5Nbefwqlx734H1X7YjlyjPrQAzRwY01LaE1DHk47HOwMpdm2DJodUAW+viX8g==
+react-admin@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.yarnpkg.com/react-admin/-/react-admin-4.8.0.tgz#55e42e7c16e952442660eed3de38cffe8c13b9e4"
+  integrity sha512-fu9Ggg01UXuGHlnVRbvYBn5IUQr5+Kpm8KNU4HnRNViEhneMvXdlFsa4zb04SgqbmRNsfOuQuF8oJ9rUgDo0mQ==
   dependencies:
     "@emotion/react" "^11.4.1"
     "@emotion/styled" "^11.3.0"
     "@mui/icons-material" "^5.0.1"
     "@mui/material" "^5.0.2"
     history "^5.1.0"
-    ra-core "^4.7.6"
-    ra-i18n-polyglot "^4.7.6"
-    ra-language-english "^4.7.6"
-    ra-ui-materialui "^4.7.6"
+    ra-core "^4.8.0"
+    ra-i18n-polyglot "^4.8.0"
+    ra-language-english "^4.8.0"
+    ra-ui-materialui "^4.8.0"
     react-hook-form "^7.40.0"
     react-router "^6.1.0"
     react-router-dom "^6.1.0"
