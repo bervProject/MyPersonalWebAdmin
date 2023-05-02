@@ -1444,17 +1444,17 @@
     long-timeout "^0.1.1"
     uuid "^9.0.0"
 
-"@feathersjs/commons@^5.0.4", "@feathersjs/commons@^5.0.5":
+"@feathersjs/commons@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.5.tgz#a912449cf9b2ea150caa4d0ffdd13bac0ff1bcaa"
   integrity sha512-LQiczfNRzL2Q+23NedZCkfYujZXvs68EySqYvvpAZwbIxqdes/0sU64ztb4h8+eEQHLVln9ifIzt5Rzv39ag9w==
 
-"@feathersjs/errors@^5.0.4", "@feathersjs/errors@^5.0.5":
+"@feathersjs/errors@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.5.tgz#6165ff3cb018b7d6916ac23854aa0fb0f62a6cc8"
   integrity sha512-hD9rTSlJhsormcHcyYFdjQ/O75qk4cZbxougG1NUXaEES7CsXEdXKyWVhbYeq8zLRK/FbdgN1HvxuFnpx/jqsA==
 
-"@feathersjs/feathers@^5.0.4", "@feathersjs/feathers@^5.0.5":
+"@feathersjs/feathers@^5.0.5":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.5.tgz#4b8145e1caed9c7483ebe78c5e0d4252213bce1f"
   integrity sha512-IJQ5bEacRQ8CXCL2v3zhKTD8NPG78xzLCkWZqifQAGbaoBMCKdGUo1fa9mQ0ZNSfqHTn2hlj4kSt3rucdLiKZA==
@@ -1468,14 +1468,14 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.8.1.tgz#de7e8e9632d9bd9027eaffc7f5292fc577bc769f"
   integrity sha512-q/OGjm2BEhT9cHYYcMZR4YKX4lHyufBJmi5Dz+XRM5YqUuEg9MYtR45CWgDiC1klrd2srNSsdmGNVU1otL4+0Q==
 
-"@feathersjs/rest-client@^5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.4.tgz#da3d1e0badc3cab5dbf6c97827437968817a1efa"
-  integrity sha512-5z73Z/lGcOylj967DzAJ/5qBhc2P9pUsjiFILEes32T8+mOcAsYpdEVO+B/Qtn44A0eqUBGzQjVAWCrGe7PUZw==
+"@feathersjs/rest-client@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.5.tgz#4fcb394d6a6c733f95aaac546d1e8ff1f8aa2f07"
+  integrity sha512-o/HCf5o2qvDE/HMTiJ+oaVrLbL9M1pRPmpZ+NjAT9k6UTOSXZDbRpHBISpj6poSwxoD6XAoXRWHY+p4SBRYwbw==
   dependencies:
-    "@feathersjs/commons" "^5.0.4"
-    "@feathersjs/errors" "^5.0.4"
-    "@feathersjs/feathers" "^5.0.4"
+    "@feathersjs/commons" "^5.0.5"
+    "@feathersjs/errors" "^5.0.5"
+    "@feathersjs/feathers" "^5.0.5"
     "@types/superagent" "^4.1.16"
     qs "^6.11.1"
 
