@@ -9247,10 +9247,10 @@ ra-core@^4.10.3:
     react-is "^17.0.2"
     react-query "^3.32.1"
 
-ra-data-feathers@^2.9.3:
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.9.3.tgz#94926353e4a4ad01dcf319e2dcb5aa63647b6178"
-  integrity sha512-uziiQQzxSHSROOAvCen/PC1bO4fpqdYPbyF2wrIR35lN1Dh/7ROyWjyWs98QIXNi3Xn4dCbORhfpGqssBU8VLA==
+ra-data-feathers@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/ra-data-feathers/-/ra-data-feathers-2.9.4.tgz#856dc1d1df2ead5ae95129cea847a18f60868bef"
+  integrity sha512-olhp+foM+wu88YZxt/UDxytbut84Zx2bAITUyLePpHnSP5Yk+EGRXm4UUZdXQ9d5OxtkZrcy+bIEr0wLCYcwTw==
   dependencies:
     debug "^3.0.0"
     jwt-decode "^2.2.0"
