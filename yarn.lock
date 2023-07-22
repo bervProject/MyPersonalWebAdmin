@@ -1468,14 +1468,14 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.8.1.tgz#de7e8e9632d9bd9027eaffc7f5292fc577bc769f"
   integrity sha512-q/OGjm2BEhT9cHYYcMZR4YKX4lHyufBJmi5Dz+XRM5YqUuEg9MYtR45CWgDiC1klrd2srNSsdmGNVU1otL4+0Q==
 
-"@feathersjs/rest-client@^5.0.7":
-  version "5.0.7"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.7.tgz#eb5f2e6a95d53463fd7fedf488c143ebc4eeca48"
-  integrity sha512-4R2iskIHsUJO93segou1jYi68bwOX05cvw5Ujg0J719zf6BUAmWQn6vupTwj6awAY1F4KtaMLDIaftwk5LTJRg==
+"@feathersjs/rest-client@^5.0.8":
+  version "5.0.8"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.8.tgz#71e783c76b9e216f0eec9cc593e228061c4a04d9"
+  integrity sha512-YELHWdAWnoC45TVN0tIiRSsb9wL5VXWGiO0subVeg+eJJk6dpsJM1pZO77XSv5gjcw2Vfnc6PaQm59LT4i9g7Q==
   dependencies:
-    "@feathersjs/commons" "^5.0.7"
-    "@feathersjs/errors" "^5.0.7"
-    "@feathersjs/feathers" "^5.0.7"
+    "@feathersjs/commons" "^5.0.8"
+    "@feathersjs/errors" "^5.0.8"
+    "@feathersjs/feathers" "^5.0.8"
     "@types/superagent" "^4.1.18"
     qs "^6.11.2"
 
