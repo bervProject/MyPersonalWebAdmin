@@ -1444,12 +1444,12 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.10", "@feathersjs/commons@^5.0.9":
+"@feathersjs/commons@^5.0.10":
   version "5.0.10"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.10.tgz#25e257e4447754dd7274b78d06276185cca1e628"
   integrity sha512-Ld8YNkdHhsO5GLnnm0k0qSH+jW1ZZjVm0c6wKA87EXrXN9RH2IQ0p3kik4vuc/3gJ+cZ23ERflP9P/05icIefA==
 
-"@feathersjs/errors@^5.0.10", "@feathersjs/errors@^5.0.9":
+"@feathersjs/errors@^5.0.10":
   version "5.0.10"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.10.tgz#a3c24f4b25a2ce628bbb3a0802dd1b823e06b8e1"
   integrity sha512-gseAgDdrvaBcZzXt0ud/ABQKbXk9txu9ypiK9M8WNbo5lS+AiKbSQZxVuPssce68qNuhfLzRPvXvPi1Wk4V9jQ==
@@ -2841,10 +2841,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.2.23":
-  version "18.2.23"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.23.tgz#60ad6cf4895e93bed858db0e03bcc4ff97d0410e"
-  integrity sha512-qHLW6n1q2+7KyBEYnrZpcsAmU/iiCh9WGCKgXvMxx89+TYdJWRjZohVIo9XTcoLhfX3+/hP0Pbulu3bCZQ9PSA==
+"@types/react@*", "@types/react@^18.2.25":
+  version "18.2.25"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.25.tgz#99fa44154132979e870ff409dc5b6e67f06f0199"
+  integrity sha512-24xqse6+VByVLIr+xWaQ9muX1B4bXJKXBbjszbld/UEDslGLY53+ZucF44HCmLbMPejTzGG9XgR+3m2/Wqu1kw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
