@@ -5,7 +5,7 @@
   "dependencies": {
     "@feathersjs/authentication-client": "^5.0.10",
     "@feathersjs/feathers": "^5.0.11",
-    "@feathersjs/rest-client": "^5.0.10",
+    "@feathersjs/rest-client": "^5.0.11",
     "axios": "^1.5.1",
     "prop-types": "^15.8.1",
     "ra-data-feathers": "^2.9.4",

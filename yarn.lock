@@ -1449,10 +1449,10 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.11.tgz#e906618eb3ed1e755fc4e29bbc1e6ef029b67258"
   integrity sha512-szeB4WbAercNwKvC8v6lHqnh+zqKEMXYihv4M/w0yNorC7qgW9+s0nclUnxhfggO7A7QZ9YtxE79aKgal+l08Q==
 
-"@feathersjs/errors@^5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.10.tgz#a3c24f4b25a2ce628bbb3a0802dd1b823e06b8e1"
-  integrity sha512-gseAgDdrvaBcZzXt0ud/ABQKbXk9txu9ypiK9M8WNbo5lS+AiKbSQZxVuPssce68qNuhfLzRPvXvPi1Wk4V9jQ==
+"@feathersjs/errors@^5.0.10", "@feathersjs/errors@^5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.11.tgz#b2f98e93762e502bf77f3601440e22b7c23c3aae"
+  integrity sha512-rFVFgGOoQmOh+B8n/Xef3fLDaJaewD3TeVo451lBZjjqQZqgS4XrsEVOKjFtj0ozRBfiZ7AzkzlZEgqDO9syvw==
 
 "@feathersjs/feathers@^5.0.10", "@feathersjs/feathers@^5.0.11":
   version "5.0.11"
@@ -1468,14 +1468,14 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.8.1.tgz#de7e8e9632d9bd9027eaffc7f5292fc577bc769f"
   integrity sha512-q/OGjm2BEhT9cHYYcMZR4YKX4lHyufBJmi5Dz+XRM5YqUuEg9MYtR45CWgDiC1klrd2srNSsdmGNVU1otL4+0Q==
 
-"@feathersjs/rest-client@^5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.10.tgz#f50c5cb0b9a010a6366d4fdc1f03ad98c5bfbcb6"
-  integrity sha512-DCz22BkRe3YbnzonEjsAbXIm+aHkBh2jCLd/w6f7Yebs8TZ34Y2eiLlQ/2u9ChQZNHw11FDukRslmQ3vMngq5w==
+"@feathersjs/rest-client@^5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.11.tgz#e958af2adb8dbfb2d2ac5f4dffac9e1daeda89a8"
+  integrity sha512-wHonTHH37FIZNIxrUzCACJlvent57u2l49CPD4OXlDcJfhdb/Zs8/+3KzyEqOTsgQHMtmUGb8T8aMe/8qJlbbQ==
   dependencies:
-    "@feathersjs/commons" "^5.0.10"
-    "@feathersjs/errors" "^5.0.10"
-    "@feathersjs/feathers" "^5.0.10"
+    "@feathersjs/commons" "^5.0.11"
+    "@feathersjs/errors" "^5.0.11"
+    "@feathersjs/feathers" "^5.0.11"
     "@types/superagent" "^4.1.19"
     qs "^6.11.2"
 
