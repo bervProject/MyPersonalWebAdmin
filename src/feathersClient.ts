@@ -1,4 +1,4 @@
-import feathers from "@feathersjs/feathers";
+import { feathers } from "@feathersjs/feathers";
 import rest from "@feathersjs/rest-client";
 import axios from "axios";
 import auth from "@feathersjs/authentication-client";
