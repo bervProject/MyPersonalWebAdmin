@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "dependencies": {
-    "@feathersjs/authentication-client": "^5.0.21",
+    "@feathersjs/authentication-client": "^5.0.22",
     "@feathersjs/feathers": "^5.0.11",
     "@feathersjs/rest-client": "^5.0.21",
     "axios": "^1.6.7",
