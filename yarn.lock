@@ -1500,29 +1500,34 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.22":
-  version "5.0.22"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.22.tgz#0d84a6137453cddae8e6c9213f7a6d3e5ca8ba7f"
-  integrity sha512-RkuOwt+fRkwOsO8CDFrDTyy8mKTkgk7qN6TegkV3vsF4Trpc7016mRiOpCzWy1hAllYLAdH4+vA+hb1E/UYPmg==
+"@feathersjs/commons@^5.0.22", "@feathersjs/commons@^5.0.23":
+  version "5.0.23"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.23.tgz#a2d1f67b555303ddd7e0e777d40adfcbe40f5a9d"
+  integrity sha512-72cJjo4c3PtOvVvzK5rlqatfdP4VLAeWg+v/f5unYVYtCQPNu1bPigWyY9kopPmWoYwh+JfuccO4OobRTtU+Dw==
 
 "@feathersjs/errors@^5.0.22":
   version "5.0.22"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.22.tgz#74b0e371ce48b78250be6148d0cf41ce544cf013"
   integrity sha512-vKizG6tDz8meNx5IiFjkMy08PmzdeDHmH7JnvQYl2MuKkWW0sx0qgAEP4ik7NT3MlCsrmtNUK+4BhXODfXnT7A==
 
-"@feathersjs/feathers@^5.0.11", "@feathersjs/feathers@^5.0.22":
-  version "5.0.22"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.22.tgz#47ce5ebfa468c69dfd77e9c9223a4648f3b78c8a"
-  integrity sha512-pNx0nC9UlF3Y+l5h228QIWBwqOwALLEE3lNST4ztAL3gAp6bp8SmHSOwO+0qMbAbAKQwIxIkTheWoqeKB6atgw==
+"@feathersjs/feathers@^5.0.22", "@feathersjs/feathers@^5.0.23":
+  version "5.0.23"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.23.tgz#8c1b41bbb7a25c6278c0638b349b508a6599fe5d"
+  integrity sha512-vYOiGQ+NcBFX5ETJGC/en3j1zZ+Y3PLuF2m2hPQEbBKstHB7prbk6bnCYOcLKOnKJbh19FrAVE4WxbSrkFIaVQ==
   dependencies:
-    "@feathersjs/commons" "^5.0.22"
-    "@feathersjs/hooks" "^0.8.1"
+    "@feathersjs/commons" "^5.0.23"
+    "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
 
 "@feathersjs/hooks@^0.8.1":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.8.1.tgz#de7e8e9632d9bd9027eaffc7f5292fc577bc769f"
   integrity sha512-q/OGjm2BEhT9cHYYcMZR4YKX4lHyufBJmi5Dz+XRM5YqUuEg9MYtR45CWgDiC1klrd2srNSsdmGNVU1otL4+0Q==
+
+"@feathersjs/hooks@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
+  integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
 
 "@feathersjs/rest-client@^5.0.22":
   version "5.0.22"
