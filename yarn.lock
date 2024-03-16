@@ -1500,17 +1500,17 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.23", "@feathersjs/commons@^5.0.24":
+"@feathersjs/commons@^5.0.24":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.24.tgz#37faec3714c2fea113bdab8e4dd70db58d8f42c5"
   integrity sha512-zjm3QRa1B0kZ3W4OTjFa4D73ABJrzUtN0xYPeCI4Fm19pi1/ANQULkqD3+f6Xi74nDr+uj5MadDYcsyGgHEsgA==
 
-"@feathersjs/errors@^5.0.23", "@feathersjs/errors@^5.0.24":
+"@feathersjs/errors@^5.0.24":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.24.tgz#f854a6ee864aeccaa84d736d3871f2bc1bddb697"
   integrity sha512-7XnTWogwA1da3VT3zjjD+oaMZXtxueadm5gP9e4+aD8dYcW6djPk2KvBL38OWEhXZ/iMgPpA7p0JETcbDYE44w==
 
-"@feathersjs/feathers@^5.0.11", "@feathersjs/feathers@^5.0.23", "@feathersjs/feathers@^5.0.24":
+"@feathersjs/feathers@^5.0.11", "@feathersjs/feathers@^5.0.24":
   version "5.0.24"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.24.tgz#04ff43df02f5a58c3d9c5b681c6116c284ccb90f"
   integrity sha512-Vz2/byMxIBVNUUw0nNY+Z0yaWpcZKA1ohSLfvUx3eCgc1ulViS0a2BpadMq3NtgszvcUVP3US4Y+2f6yPe8v6w==
@@ -3582,12 +3582,12 @@ axe-core@^4.3.5:
   resolved "https://registry.npmjs.org/axe-core/-/axe-core-4.3.5.tgz#78d6911ba317a8262bfee292aeafcc1e04b49cc5"
   integrity sha512-WKTW1+xAzhMS5dJsxWkliixlO/PqC4VhmO9T4juNYcaTg9jzWiJsou6m5pxWYGfigWbwzJWeFY6z47a+4neRXA==
 
-axios@^1.6.7:
-  version "1.6.7"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.7.tgz#7b48c2e27c96f9c68a2f8f31e2ab19f59b06b0a7"
-  integrity sha512-/hDJGff6/c7u0hDkvkGxR/oy6CbCs8ziCsC7SqmhjfozqiJGc8Z11wrv9z9lYfY4K8l+H9TpjcMDX0xOZmx+RA==
+axios@^1.6.8:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.8.tgz#66d294951f5d988a00e87a0ffb955316a619ea66"
+  integrity sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==
   dependencies:
-    follow-redirects "^1.15.4"
+    follow-redirects "^1.15.6"
     form-data "^4.0.0"
     proxy-from-env "^1.1.0"
 
@@ -5663,7 +5663,7 @@ flatted@^3.1.0:
   resolved "https://registry.npmjs.org/flatted/-/flatted-3.2.4.tgz#28d9969ea90661b5134259f312ab6aa7929ac5e2"
   integrity sha512-8/sOawo8tJ4QOBX8YlQBMxL8+RLZfxMQOif9o0KUKTNTjMYElWPE0r/m5VNFxTRd0NSw8qSy8dajrwX4RYI1Hw==
 
-follow-redirects@^1.0.0, follow-redirects@^1.15.4:
+follow-redirects@^1.0.0, follow-redirects@^1.15.6:
   version "1.15.6"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.6.tgz#7f815c0cda4249c74ff09e95ef97c23b5fd0399b"
   integrity sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==
