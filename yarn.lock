@@ -1500,17 +1500,17 @@
     long-timeout "^0.1.1"
     uuid "^9.0.1"
 
-"@feathersjs/commons@^5.0.24", "@feathersjs/commons@^5.0.25":
+"@feathersjs/commons@^5.0.25":
   version "5.0.25"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.25.tgz#2d7cba874ff6c27e2799c0c0fb46e19df1049537"
   integrity sha512-hxNne1mytiriGEXmz5jx95WwpK7Qukymah85esJERRJzJ3XI8ax1ItuOrcpFSi8AYY6fjokoJISYlDO/OUVgjg==
 
-"@feathersjs/errors@^5.0.24", "@feathersjs/errors@^5.0.25":
+"@feathersjs/errors@^5.0.25":
   version "5.0.25"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.25.tgz#9abe7735763e7f2692257bb2361441ba21f6c77b"
   integrity sha512-rP1dhbTffybDjTEEiPVQ/fFVLWVFMyUFVuR3UNGYp86D3SGBcvmWtWJz6JwMXUiZy6AUtIvBvjqGS1g441I5lQ==
 
-"@feathersjs/feathers@^5.0.11", "@feathersjs/feathers@^5.0.24", "@feathersjs/feathers@^5.0.25":
+"@feathersjs/feathers@^5.0.11", "@feathersjs/feathers@^5.0.25":
   version "5.0.25"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.25.tgz#21340a45a01519773471c8576f3c6a2dc06e641a"
   integrity sha512-JHlleo2Zjn+LNk7aN2GO7ClvhJ9RlrGlx81wjxzM6bs+V/1QZ/UGBkp816Pn0W3uSvz+aNGcHDBZbvRsPUU9UQ==
@@ -2901,10 +2901,10 @@
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@^18.2.25":
-  version "18.2.25"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.25.tgz#2946a30081f53e7c8d585eb138277245caedc521"
-  integrity sha512-o/V48vf4MQh7juIKZU2QGDfli6p1+OOi5oXx36Hffpc9adsHeXjVp8rHuPkjd8VT8sOJ2Zp05HR7CdpGTIUFUA==
+"@types/react-dom@^18.3.0":
+  version "18.3.0"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.3.0.tgz#0cbc818755d87066ab6ca74fbedb2547d74a82b0"
+  integrity sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==
   dependencies:
     "@types/react" "*"
 
@@ -2922,15 +2922,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "18.2.79"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.2.79.tgz#c40efb4f255711f554d47b449f796d1c7756d865"
-  integrity sha512-RwGAGXPl9kSXwdNTafkOEuFrTBD5SA2B3iEB96xi8+xu5ddUa/cpvyVCSNn+asgLCTHkb5ZxN8gbuibYJi4s1w==
-  dependencies:
-    "@types/prop-types" "*"
-    csstype "^3.0.2"
-
-"@types/react@^18.3.1":
+"@types/react@*", "@types/react@^18.3.1":
   version "18.3.1"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.1.tgz#fed43985caa834a2084d002e4771e15dfcbdbe8e"
   integrity sha512-V0kuGBX3+prX+DQ/7r2qsv1NsdfnCLnTgnRJ1pYnxykBhGMz+qj+box5lq7XsO5mtZsBqpjwwTu/7wszPfMBcw==
@@ -9648,13 +9640,13 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
-react-dom@^18.2.0:
-  version "18.2.0"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
-  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+react-dom@^18.3.1:
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.3.1.tgz#c2265d79511b57d479b3dd3fdfa51536494c5cb4"
+  integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
   dependencies:
     loose-envify "^1.1.0"
-    scheduler "^0.23.0"
+    scheduler "^0.23.2"
 
 react-dropzone@^12.0.4:
   version "12.1.0"
@@ -10102,10 +10094,10 @@ saxes@^6.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-scheduler@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
-  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
+scheduler@^0.23.2:
+  version "0.23.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.2.tgz#414ba64a3b282892e944cf2108ecc078d115cdc3"
+  integrity sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==
   dependencies:
     loose-envify "^1.1.0"
 
