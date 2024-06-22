@@ -4135,6 +4135,11 @@ clsx@^1.1.1:
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
 
+clsx@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
+  integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
+
 co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
@@ -9505,10 +9510,10 @@ ra-i18n-polyglot@^4.16.19:
     node-polyglot "^2.2.2"
     ra-core "^4.16.19"
 
-ra-input-rich-text@^4.16.18:
-  version "4.16.18"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-4.16.18.tgz#8f9915f46ce68467d638ff1d1b23f2484bb94fd8"
-  integrity sha512-b7cnIZzupCdZycnD6ADTnHAjVG7QrGBOR/lBJ6CgXB4xfi+zgucM5GTVGjAKn4UpAagSEFasoWM6iXeT8Mq7zg==
+ra-input-rich-text@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.0.1.tgz#64b36a2d18d178deb982f95d689dee16a00484d1"
+  integrity sha512-cRMffi//To2uFfSFZ0DUKG8TZgEQI/8m+VWrPC6Vu1bLZ5ST+FX1tlado8No54lsxlfEKNy6YhTUadp2vqbOGA==
   dependencies:
     "@tiptap/core" "^2.0.3"
     "@tiptap/extension-color" "^2.0.3"
@@ -9522,7 +9527,7 @@ ra-input-rich-text@^4.16.18:
     "@tiptap/pm" "^2.0.3"
     "@tiptap/react" "^2.0.3"
     "@tiptap/starter-kit" "^2.0.3"
-    clsx "^1.1.1"
+    clsx "^2.1.1"
 
 ra-language-english@^4.16.19:
   version "4.16.19"
