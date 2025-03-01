@@ -1500,22 +1500,22 @@
     long-timeout "^0.1.1"
     uuid "^11.0.5"
 
-"@feathersjs/commons@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.32.tgz#25e10091f8d557eff96d922644afe49feb886379"
-  integrity sha512-Qj2x8xBJS+8fpe6sVor4dBT42pHc5uRuvH91FD+n4/O1YvKHpmuInO0IvD9DPvPtDqodT2WCzA7a2eTDHLOuNw==
+"@feathersjs/commons@^5.0.32", "@feathersjs/commons@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.33.tgz#eda8fc41b3f80eccbf6db070a4db59c8977b9dc6"
+  integrity sha512-RPwOTERN6jeNjXqV/K0djBtc9Y9GcX3W5N9XKWOSdSkPQNzKwXG1G7sPkSRrnx2iJqFMuN/5nS+s69JwLW2m1g==
 
 "@feathersjs/errors@^5.0.32":
   version "5.0.32"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.32.tgz#e73cde8919743180a7ce1798695a980162d6d947"
   integrity sha512-54pBmnAmOOPvkIO5fwHVpYODOxp5TJtpYcC0ABppzUG6P77WqmndpIPCzT5wP+VbQBcCdYP/mOyK05BdeRju7g==
 
-"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.32.tgz#f00b1ccfa62df610bdc928c102c9757d637f00f7"
-  integrity sha512-eP05x5xcLvtRFttt9uSJd8GApP+eqdnw/bQFxpZxMDGjvvZXa0Az/M3JT98ucjjoY3kHpoX3XFJbkDe06AoS+A==
+"@feathersjs/feathers@^5.0.32", "@feathersjs/feathers@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.33.tgz#f8054ba66e3f3dff210bba8f69104868f5adc317"
+  integrity sha512-bEcperDJVXJkJQYTUKgneXshC54w0h334TjeBCda8BTPVp7DX5p2q5QvsSvz91RS2si537Vy4E/xp+s4Nsi+ng==
   dependencies:
-    "@feathersjs/commons" "^5.0.32"
+    "@feathersjs/commons" "^5.0.33"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
 
