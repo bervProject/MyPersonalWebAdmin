@@ -1500,22 +1500,22 @@
     long-timeout "^0.1.1"
     uuid "^11.0.5"
 
-"@feathersjs/commons@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.32.tgz#25e10091f8d557eff96d922644afe49feb886379"
-  integrity sha512-Qj2x8xBJS+8fpe6sVor4dBT42pHc5uRuvH91FD+n4/O1YvKHpmuInO0IvD9DPvPtDqodT2WCzA7a2eTDHLOuNw==
+"@feathersjs/commons@^5.0.32", "@feathersjs/commons@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.33.tgz#eda8fc41b3f80eccbf6db070a4db59c8977b9dc6"
+  integrity sha512-RPwOTERN6jeNjXqV/K0djBtc9Y9GcX3W5N9XKWOSdSkPQNzKwXG1G7sPkSRrnx2iJqFMuN/5nS+s69JwLW2m1g==
 
-"@feathersjs/errors@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.32.tgz#e73cde8919743180a7ce1798695a980162d6d947"
-  integrity sha512-54pBmnAmOOPvkIO5fwHVpYODOxp5TJtpYcC0ABppzUG6P77WqmndpIPCzT5wP+VbQBcCdYP/mOyK05BdeRju7g==
+"@feathersjs/errors@^5.0.32", "@feathersjs/errors@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.33.tgz#e1e0a79bf1774d2bbfa4e8983d089330652a8018"
+  integrity sha512-roM6xxEUdcm7b9OAtCBViafTF7K0tjW45p9IxAN3Q6VAo7bT2qb7Hh22VgBOtKxVTSYTncON4eQv8F0yVRSCSg==
 
-"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.32.tgz#f00b1ccfa62df610bdc928c102c9757d637f00f7"
-  integrity sha512-eP05x5xcLvtRFttt9uSJd8GApP+eqdnw/bQFxpZxMDGjvvZXa0Az/M3JT98ucjjoY3kHpoX3XFJbkDe06AoS+A==
+"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.32", "@feathersjs/feathers@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.33.tgz#f8054ba66e3f3dff210bba8f69104868f5adc317"
+  integrity sha512-bEcperDJVXJkJQYTUKgneXshC54w0h334TjeBCda8BTPVp7DX5p2q5QvsSvz91RS2si537Vy4E/xp+s4Nsi+ng==
   dependencies:
-    "@feathersjs/commons" "^5.0.32"
+    "@feathersjs/commons" "^5.0.33"
     "@feathersjs/hooks" "^0.9.0"
     events "^3.3.0"
 
@@ -1524,14 +1524,14 @@
   resolved "https://registry.yarnpkg.com/@feathersjs/hooks/-/hooks-0.9.0.tgz#8aa339b83d17fcbd929e80113a3c0616979b33cb"
   integrity sha512-kLfWnuhbC25CPkR1/TDcVs0rSiv0JLNxrpUivLwc7FUnkyeciRi5VOmC1SOzL2SOagcozu3+m4VQiONyzgfY7w==
 
-"@feathersjs/rest-client@^5.0.32":
-  version "5.0.32"
-  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.32.tgz#40f04e4eaf7964c689439954ab555b2815c0fd28"
-  integrity sha512-s7tQmpOa+GYYpGPZayw37bDR35r3K+PXr30cACn6UtBaiPE/v5w4iik4C3wB1RoZojiOkXzd7xTfb4SImrivOw==
+"@feathersjs/rest-client@^5.0.33":
+  version "5.0.33"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-5.0.33.tgz#4e00ced6489eb08c949f8dae263d61225840dbdb"
+  integrity sha512-BTGj4THdG3lpvxyXp8R8MmL0rcLB2pQcAmtb+T8H2THz0mReYgw8K33gdEm57JUm3pxYD01omTEhpIBabkFVtA==
   dependencies:
-    "@feathersjs/commons" "^5.0.32"
-    "@feathersjs/errors" "^5.0.32"
-    "@feathersjs/feathers" "^5.0.32"
+    "@feathersjs/commons" "^5.0.33"
+    "@feathersjs/errors" "^5.0.33"
+    "@feathersjs/feathers" "^5.0.33"
     "@types/superagent" "^8.1.9"
     qs "^6.14.0"
 
