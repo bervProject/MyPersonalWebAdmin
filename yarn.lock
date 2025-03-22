@@ -9677,10 +9677,10 @@ ra-i18n-polyglot@^4.16.20:
     node-polyglot "^2.2.2"
     ra-core "^4.16.20"
 
-ra-input-rich-text@^5.6.3:
-  version "5.6.3"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.6.3.tgz#7a943e970b410ccbeba4e56c2b7fdf8885e0f866"
-  integrity sha512-6VEcED+KQO1wIuDUnNpqjvINNzsxMGpy3fUyPLIEMUuX/Krs5CYGV0QoBslWjwTcLMQcnL+2m+tL/w7fyTDHmA==
+ra-input-rich-text@^5.6.4:
+  version "5.6.4"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.6.4.tgz#6ffe1d7067bc832dfa673180f92b52147c08a0f3"
+  integrity sha512-joYuO5xUhjg9oLzDzJZ7x41DxyM5sNo9/MzdZzocFgvKxCeSf2IVwtQ0rl80GiZheRhwYlgRbnYQtSiWvt6oZg==
   dependencies:
     "@tiptap/core" "^2.0.3"
     "@tiptap/extension-color" "^2.0.3"
@@ -10010,7 +10010,7 @@ regenerate@^1.4.2:
   resolved "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
-regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.9:
+regenerator-runtime@^0.13.9:
   version "0.13.9"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
   integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
