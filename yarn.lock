@@ -1512,17 +1512,17 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.33", "@feathersjs/commons@^5.0.34":
+"@feathersjs/commons@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.34.tgz#9cbc8f326ad24036e1fdb4cfc9b0cd9b28699b08"
   integrity sha512-UfHzq7taVJx++TXxX5pmDSR72xRp+h5nler4xcUlcJWLLykCOYo8YCeW03S7T1p1NuFdy0qBmU+B+G89bjyGmg==
 
-"@feathersjs/errors@^5.0.33", "@feathersjs/errors@^5.0.34":
+"@feathersjs/errors@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.34.tgz#8c909ad7151596b2f57a0ec42913b52de4321b4a"
   integrity sha512-C0t+pONnMvwlDW6iczcYmxaHzGvaGn3+BLhwlySEVYRciWOURIO8Eo5JVdN7cSM3Z7AxS3Dpk4DEhyFU/D2w6w==
 
-"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.33", "@feathersjs/feathers@^5.0.34":
+"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.34.tgz#591625d9b6b158419acfefe121931fcb4ae1dab6"
   integrity sha512-jgeqKq/Uhsfeld42F8uimqzPv/uhtohkenpaWeD+NudJp2YZNYfA6gDZAL5UTpAvrTJFmK3QR1q1CnuL1mJdHg==
@@ -9677,10 +9677,10 @@ ra-i18n-polyglot@^4.16.20:
     node-polyglot "^2.2.2"
     ra-core "^4.16.20"
 
-ra-input-rich-text@^5.8.0:
-  version "5.8.0"
-  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.8.0.tgz#9e53648887e85e6ebdb759cffc0c8d6046c2f037"
-  integrity sha512-45isSAbiUKrhwwoI5H2kuyAXZdgEHe0LJG2susl/nxpj9qn+fW0QL5h4ZVWYIbHT/S4/u2hbfb6i13GpwEdiwg==
+ra-input-rich-text@^5.8.2:
+  version "5.8.2"
+  resolved "https://registry.yarnpkg.com/ra-input-rich-text/-/ra-input-rich-text-5.8.2.tgz#dcc959950100e716d0118420c50b15623524573d"
+  integrity sha512-SgDxXkMgnYDuhNKn5hbOFBWtCZ3AQ9B7zzp1BNukjFF+rNgzcRUsyIbmvLV7JMZ4ROyRxtu2CEsf5lvTIEtdrg==
   dependencies:
     "@tiptap/core" "^2.0.3"
     "@tiptap/extension-color" "^2.0.3"
