@@ -1512,17 +1512,17 @@
     long-timeout "^0.1.1"
     uuid "^11.1.0"
 
-"@feathersjs/commons@^5.0.33", "@feathersjs/commons@^5.0.34":
+"@feathersjs/commons@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/commons/-/commons-5.0.34.tgz#9cbc8f326ad24036e1fdb4cfc9b0cd9b28699b08"
   integrity sha512-UfHzq7taVJx++TXxX5pmDSR72xRp+h5nler4xcUlcJWLLykCOYo8YCeW03S7T1p1NuFdy0qBmU+B+G89bjyGmg==
 
-"@feathersjs/errors@^5.0.33", "@feathersjs/errors@^5.0.34":
+"@feathersjs/errors@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/errors/-/errors-5.0.34.tgz#8c909ad7151596b2f57a0ec42913b52de4321b4a"
   integrity sha512-C0t+pONnMvwlDW6iczcYmxaHzGvaGn3+BLhwlySEVYRciWOURIO8Eo5JVdN7cSM3Z7AxS3Dpk4DEhyFU/D2w6w==
 
-"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.33", "@feathersjs/feathers@^5.0.34":
+"@feathersjs/feathers@^5.0.31", "@feathersjs/feathers@^5.0.34":
   version "5.0.34"
   resolved "https://registry.yarnpkg.com/@feathersjs/feathers/-/feathers-5.0.34.tgz#591625d9b6b158419acfefe121931fcb4ae1dab6"
   integrity sha512-jgeqKq/Uhsfeld42F8uimqzPv/uhtohkenpaWeD+NudJp2YZNYfA6gDZAL5UTpAvrTJFmK3QR1q1CnuL1mJdHg==
@@ -2886,10 +2886,10 @@
   resolved "https://registry.yarnpkg.com/@types/ms/-/ms-2.1.0.tgz#052aa67a48eccc4309d7f0191b7e41434b90bb78"
   integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
-"@types/node@*", "@types/node@^22.15.17":
-  version "22.15.17"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.17.tgz#355ccec95f705b664e4332bb64a7f07db30b7055"
-  integrity sha512-wIX2aSZL5FE+MR0JlvF87BNVrtFWf6AE6rxSE9X7OwnVvoyCQjpzSRJ+M87se/4QCkCiebQAqrJ0y6fwIyi7nw==
+"@types/node@*", "@types/node@^22.15.18":
+  version "22.15.18"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.18.tgz#2f8240f7e932f571c2d45f555ba0b6c3f7a75963"
+  integrity sha512-v1DKRfUdyW+jJhZNEI1PYy29S2YRxMV5AOO/x/SjKmW0acCIOqmbj6Haf9eHAhsPmrhlHSxEhv/1WszcLWV4cg==
   dependencies:
     undici-types "~6.21.0"
 
